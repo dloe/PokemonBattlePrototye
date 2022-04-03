@@ -53,6 +53,7 @@ public class Player : MonoBehaviour
     {
         moveList = new MovesStorage();
         //loading json test
+        //overrides current json btw
         //SaveData();
         LoadData();
        
@@ -61,7 +62,8 @@ public class Player : MonoBehaviour
     void SetUpPlayerInfo()
     {
         myPlayerParty = new PlayerParty();
-        //SaveParty();
+        //save overrides current json btw
+        SaveParty();
         LoadParty();
     }
 

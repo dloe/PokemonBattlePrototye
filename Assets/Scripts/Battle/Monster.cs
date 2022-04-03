@@ -52,6 +52,8 @@ public class Monster
     [Header("Types")]
     public Type type1;
     public Type type2;
+    [Header("Accuracy")]
+    public int accuracy;
     [Header("Name")]
     public string mName;
     [Header("Health")]
@@ -88,6 +90,7 @@ public class Monster
         level = 0;
         type1 = 0;
         type2 = 0;
+        accuracy = 100;
         mName = "Empty";
         maxHealth = 50;
         currentHealth = 0;
