@@ -63,7 +63,7 @@ public class Player : MonoBehaviour
     {
         myPlayerParty = new PlayerParty();
         //save overrides current json btw
-        SaveParty();
+        //SaveParty();
         LoadParty();
     }
 
