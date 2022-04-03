@@ -1,0 +1,282 @@
+{
+  "party": [
+    {
+      "dexNum": 0,
+      "mName": "None",
+      "maxHealth": 100,
+      "currentHealth": 100,
+      "maxAttack": 50,
+      "currentAttack": 50,
+      "maxDefense": 50,
+      "currentDefense": 50,
+      "maxSpeAtt": 50,
+      "currentSpeAtt": 50,
+      "maxSpeDef": 50,
+      "currentSpeDef": 50,
+      "maxSpeed": 50,
+      "currentSpeed": 50,
+      "moves": [
+        {
+          "moveNum": 0,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 1,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 2,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 3,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        }
+      ]
+    },
+    {
+      "dexNum": 1,
+      "mName": "None",
+      "maxHealth": 100,
+      "currentHealth": 100,
+      "maxAttack": 50,
+      "currentAttack": 50,
+      "maxDefense": 50,
+      "currentDefense": 50,
+      "maxSpeAtt": 50,
+      "currentSpeAtt": 50,
+      "maxSpeDef": 50,
+      "currentSpeDef": 50,
+      "maxSpeed": 50,
+      "currentSpeed": 50,
+      "moves": [
+        {
+          "moveNum": 0,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 1,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 2,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 3,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        }
+      ]
+    },
+    {
+      "dexNum": 2,
+      "mName": "None",
+      "maxHealth": 100,
+      "currentHealth": 100,
+      "maxAttack": 50,
+      "currentAttack": 50,
+      "maxDefense": 50,
+      "currentDefense": 50,
+      "maxSpeAtt": 50,
+      "currentSpeAtt": 50,
+      "maxSpeDef": 50,
+      "currentSpeDef": 50,
+      "maxSpeed": 50,
+      "currentSpeed": 50,
+      "moves": [
+        {
+          "moveNum": 0,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 1,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 2,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 3,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        }
+      ]
+    },
+    {
+      "dexNum": 3,
+      "mName": "Empty",
+      "maxHealth": 100,
+      "currentHealth": 100,
+      "maxAttack": 50,
+      "currentAttack": 50,
+      "maxDefense": 50,
+      "currentDefense": 50,
+      "maxSpeAtt": 50,
+      "currentSpeAtt": 50,
+      "maxSpeDef": 50,
+      "currentSpeDef": 50,
+      "maxSpeed": 50,
+      "currentSpeed": 50,
+      "moves": [
+        {
+          "moveNum": 0,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 1,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 2,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 3,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        }
+      ]
+    },
+    {
+      "dexNum": 4,
+      "mName": "None",
+      "maxHealth": 100,
+      "currentHealth": 100,
+      "maxAttack": 50,
+      "currentAttack": 50,
+      "maxDefense": 50,
+      "currentDefense": 50,
+      "maxSpeAtt": 50,
+      "currentSpeAtt": 50,
+      "maxSpeDef": 50,
+      "currentSpeDef": 50,
+      "maxSpeed": 50,
+      "currentSpeed": 50,
+      "moves": [
+        {
+          "moveNum": 0,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 1,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 2,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 3,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        }
+      ]
+    },
+    {
+      "dexNum": 5,
+      "mName": "None",
+      "maxHealth": 100,
+      "currentHealth": 100,
+      "maxAttack": 50,
+      "currentAttack": 50,
+      "maxDefense": 50,
+      "currentDefense": 50,
+      "maxSpeAtt": 50,
+      "currentSpeAtt": 50,
+      "maxSpeDef": 50,
+      "currentSpeDef": 50,
+      "maxSpeed": 50,
+      "currentSpeed": 50,
+      "moves": [
+        {
+          "moveNum": 0,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 1,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 2,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        },
+        {
+          "moveNum": 3,
+          "moveName": "empty",
+          "baseAttackDamage": 0,
+          "powerPoints": 0,
+          "moveDescription": "empty empty empty"
+        }
+      ]
+    }
+  ],
+  "money": 6,
+  "wins" :  0
+}

@@ -17,11 +17,14 @@ public class Monster : MonoBehaviour
     ///     - sprite info (if any)
     ///     
     /// 
+    /// 
     /// </summary>
 
     #region Stats
     [Header("Orgnization Num")]
     public int dexNum;
+    [Header("Name")]
+    public string mName;
     [Header("Health")]
     public int maxHealth;
     public int currentHealth;
@@ -43,7 +46,7 @@ public class Monster : MonoBehaviour
 
     #endregion
 
-    public Move[] moves = new Move[4];
+    public Move[] moves;
 
     /// <summary>
     /// Monster Constructor
@@ -52,7 +55,21 @@ public class Monster : MonoBehaviour
     /// </summary>
     public Monster()
     {
-        
+        dexNum = 0;
+        mName = "Empty";
+        maxHealth = 50;
+        currentHealth = 0;
+        maxAttack = 0;
+        currentAttack = 0;
+        maxDefense = 0;
+        currentDefense = 0;
+        maxSpeAtt = 0;
+        currentSpeAtt = 0;
+        maxSpeDef = 0;
+        currentSpeDef = 0;
+        maxSpeed = 0;
+        currentSpeed = 0;
+        moves = new Move[4];
     }
 
 

@@ -18,8 +18,12 @@ public class Player : MonoBehaviour
     /// - CHECK LATER" Maybe contrain player data
     ///     - player data includes current monster party
     ///     
+    /// 
+    /// - players party will be saved out on  json file
+    ///     - will have 6 in party
     /// </summary>
 
+    public PlayerParty myPlayerParty;
     public MovesStorage test;
     string path;
     
@@ -42,8 +46,8 @@ public class Player : MonoBehaviour
             Debug.Log("Check path");
         }
 
-        
-       
+
+        LoadParty();
     }
 
     // Update is called once per frame
@@ -52,14 +56,39 @@ public class Player : MonoBehaviour
         
     }
 
+    //get move lists - will rework but this works and we will use it for setting up the pokemons move sets
     public void LoadData(string moveData)
     {
 
         //JsonUtility.FromJsonOverwrite(moveData, this);
         test = JsonUtility.FromJson<MovesStorage>(moveData);
-        Debug.Log("Data Loaded: ");
+        Debug.Log("Move Data Loaded: ");
         Debug.Log(test.moveList[0].moveName);
     }
+
+
+    public void LoadParty()
+    {
+        path = Application.dataPath + "/PlayerInventory.JSON";
+        if (File.Exists(path))
+        {
+            string content = File.ReadAllText(path);
+            myPlayerParty = new PlayerParty();
+            //JsonUtility.FromJsonOverwrite(content, this);
+            myPlayerParty = JsonUtility.FromJson<PlayerParty>(content);
+            Debug.Log("Party Data Loaded:");
+            Debug.Log(myPlayerParty.wins);
+            Debug.Log(myPlayerParty.party[0].dexNum);
+            Debug.Log(myPlayerParty.party[0].mName);
+        }
+        else
+        {
+            Debug.Log("Check player inventory path");
+            //new player
+        }
+    }
+
+
 
 
     //temp testing of json format, will reference later for saving out playe stats and whatnot

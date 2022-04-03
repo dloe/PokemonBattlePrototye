@@ -19,15 +19,15 @@ public class Move
     /// </summary>
     /// 
 
-    //[Header("Organizational Number for each move")]
+    //Organizational Number for each move
     public int moveNum;
-   // [Header("Name of move")]
+   //Name of move
     public string moveName;
-    //[Header("Base Damaage move does (if any)")]
+    //Base Damaage move does (if any)
     public int baseAttackDamage;
-    //[Header("Power Points: how much move can be used")]
+    //Power Points: how much move can be used
     public int powerPoints;
-    //[Header("Description of Move")]
+    //Description of Move
     public string moveDescription;
 
     /// <summary>
@@ -38,15 +38,15 @@ public class Move
     /// <param name="powerPoints"></param>
     /// <param name="moveName"></param>
     /// <param name="moveDescription"></param>
-    // public Move(int moveNum, int baseAttackDamage, int powerPoints, string moveName, string moveDescription)
-    //{
-    //    this.moveNum = moveNum;
-    //    this.baseAttackDamage = baseAttackDamage;
-    //     this.powerPoints = powerPoints;
-    //    this.moveName = moveName;
-    //    this.moveDescription = moveDescription;
+     public Move(int moveNum, int baseAttackDamage, int powerPoints, string moveName, string moveDescription)
+    {
+        this.moveNum = moveNum;
+        this.baseAttackDamage = baseAttackDamage;
+        this.powerPoints = powerPoints;
+        this.moveName = moveName;
+        this.moveDescription = moveDescription;
 
-    // }
+     }
     public Move()
     {
         moveNum = 0;
