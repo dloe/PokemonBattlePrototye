@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
     {
         moveList = new MovesStorage();
         //loading json test
-        SaveData();
+        //SaveData();
         LoadData();
        
     }
@@ -61,7 +61,7 @@ public class Player : MonoBehaviour
     void SetUpPlayerInfo()
     {
         myPlayerParty = new PlayerParty();
-        SaveParty();
+        //SaveParty();
         LoadParty();
     }
 

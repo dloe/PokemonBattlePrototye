@@ -1,1 +1,25 @@
-{"moveList":[{"moveNum":0,"moveName":"TEST","baseAttackDamage":69,"powerPoints":2,"moveDescription":"this is test prey it works"},{"moveNum":0,"moveName":"empty","baseAttackDamage":0,"powerPoints":0,"moveDescription":"empty empty empty"},{"moveNum":0,"moveName":"empty","baseAttackDamage":0,"powerPoints":0,"moveDescription":"empty empty empty"}]}
+{
+  "moveList": [
+    {
+      "moveNum": 0,
+      "moveName": "Tackle",
+      "baseAttackDamage": 6,
+      "powerPoints": 50,
+      "moveDescription": "Tackle attack attacks enemy"
+    },
+    {
+      "moveNum": 1,
+      "moveName": "Growl",
+      "baseAttackDamage": 0,
+      "powerPoints": 50,
+      "moveDescription": "Growl attack startles enemy"
+    },
+    {
+      "moveNum": 2,
+      "moveName": "Struggle",
+      "baseAttackDamage": 3,
+      "powerPoints": 55,
+      "moveDescription": "Struggle attack attacks enemy"
+    }
+  ]
+}
