@@ -2,6 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[SerializeField]
+public enum Type
+{
+    None,
+    Fire,
+    Water,
+    Grass,
+    Normal,
+    Bug,
+    Dark,
+    Dragon,
+    Electric,
+    Fairy,
+    Fighting,
+    Flying,
+    Ghost,
+    Ground,
+    Ice,
+    Poison,
+    Psychic,
+    Rock,
+    Steel
+}
+
 [System.Serializable]
 public class Monster
 {
@@ -23,6 +47,11 @@ public class Monster
     #region Stats
     [Header("Orgnization Num")]
     public int dexNum;
+    [Header("Level")]
+    public int level;
+    [Header("Types")]
+    public Type type1;
+    public Type type2;
     [Header("Name")]
     public string mName;
     [Header("Health")]
@@ -56,6 +85,9 @@ public class Monster
     public Monster()
     {
         dexNum = 0;
+        level = 0;
+        type1 = 0;
+        type2 = 0;
         mName = "Empty";
         maxHealth = 50;
         currentHealth = 0;
@@ -69,6 +101,8 @@ public class Monster
         currentSpeDef = 0;
         maxSpeed = 0;
         currentSpeed = 0;
+
+        //they get 4 moves
         moves = new Move[4];
     }
 

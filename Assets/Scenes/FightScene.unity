@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 619569945}
   - component: {fileID: 619569944}
   m_Layer: 0
-  m_Name: Load
+  m_Name: Load-temp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -150,7 +150,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2aed17b4a58d864589371eb9e878c8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  test: {fileID: 11400000, guid: 3203bcd97226f1a4095a259725f0145f, type: 2}
 --- !u!4 &619569945
 Transform:
   m_ObjectHideFlags: 0

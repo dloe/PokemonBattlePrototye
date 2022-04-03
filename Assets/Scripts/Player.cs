@@ -53,34 +53,34 @@ public class Player : MonoBehaviour
     {
         moveList = new MovesStorage();
         //loading json test
-        path = Application.dataPath + "/MoveData.JSON";
-        if (File.Exists(path))
-        {
-
-            string content = File.ReadAllText(path);
-            //SaveData();
-            LoadData(content);
-        }
-        else
-        {
-            Debug.Log("Check path");
-        }
+        SaveData();
+        LoadData();
+       
     }
 
     void SetUpPlayerInfo()
     {
         myPlayerParty = new PlayerParty();
-        //SaveParty();
+        SaveParty();
         LoadParty();
     }
 
     //get move lists - will rework but this works and we will use it for setting up the pokemons move sets
-    public void LoadData(string moveData)
+    public void LoadData()
     {
-        
-        //JsonUtility.FromJsonOverwrite(moveData, this);
-        moveList = JsonUtility.FromJson<MovesStorage>(moveData);
-        Debug.Log("Move Data Loaded...");
+        path = Application.dataPath + "/MoveData.JSON";
+        if (File.Exists(path))
+        {
+
+            string content = File.ReadAllText(path);
+            //JsonUtility.FromJsonOverwrite(moveData, this);
+            moveList = JsonUtility.FromJson<MovesStorage>(content);
+            Debug.Log("Move Data Loaded...");
+        }
+        else
+        {
+            Debug.Log("Check path");
+        }
     }
 
     public void LoadParty()
@@ -93,9 +93,7 @@ public class Player : MonoBehaviour
             //JsonUtility.FromJsonOverwrite(content, this);
             myPlayerParty = JsonUtility.FromJson<PlayerParty>(content);
             Debug.Log("Party Data Loaded...");
-            //Debug.Log(myPlayerParty.wins);
-            //Debug.Log(myPlayerParty.party[0].dexNum);
-            //Debug.Log(myPlayerParty.party[0].mName);
+
         }
         else
         {
@@ -132,9 +130,7 @@ public class Player : MonoBehaviour
     //temp testing of json format, will reference later for saving out playe stats and whatnot
     public void SaveData()
     {
-       // MovesStorage temp1 = new MovesStorage();
-       // Move[] moveListT = temp1.moveList;
-       // moveListT = new Move[3];
+        path = Application.dataPath + "/MoveData.JSON";
 
         Move m = new Move();
         m.moveNum = 0;
