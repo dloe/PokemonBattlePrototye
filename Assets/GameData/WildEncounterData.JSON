@@ -1,0 +1,46 @@
+{
+  "moveList": [
+    {
+      "moveNum": 0,
+      "moveName": "Tackle",
+      "baseAttackDamage": 6,
+      "powerPoints": 50,
+      "moveDescription": "Tackle attack attacks enemy",
+      "function": 0,
+      "type": 0,
+      "priority": 0,
+      "turns": 0,
+      "status": 0,
+      "amount": 0,
+      "accuracy": 100
+    },
+    {
+      "moveNum": 1,
+      "moveName": "Growl",
+      "baseAttackDamage": 0,
+      "powerPoints": 50,
+      "moveDescription": "Growl attack startles enemy",
+      "function": 0,
+      "type": 0,
+      "priority": 0,
+      "turns": 0,
+      "status": 0,
+      "amount": 0,
+      "accuracy": 100
+    },
+    {
+      "moveNum": 2,
+      "moveName": "Struggle",
+      "baseAttackDamage": 3,
+      "powerPoints": 55,
+      "moveDescription": "Struggle attack attacks enemy",
+      "function": 0,
+      "type": 0,
+      "priority": 0,
+      "turns": 0,
+      "status": 0,
+      "amount": 0,
+      "accuracy": 100
+    }
+  ]
+}

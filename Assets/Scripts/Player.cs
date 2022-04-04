@@ -26,6 +26,10 @@ public class Player : MonoBehaviour
 
     public PlayerParty myPlayerParty;
     public MovesStorage moveList;
+
+    //will need list of all available pokemon
+
+
     string path;
     
 
@@ -70,7 +74,7 @@ public class Player : MonoBehaviour
     //get move lists - will rework but this works and we will use it for setting up the pokemons move sets
     public void LoadData()
     {
-        path = Application.dataPath + "/MoveData.JSON";
+        path = Application.dataPath + "/GameData" + "/MoveData.JSON";
         if (File.Exists(path))
         {
 
@@ -87,7 +91,7 @@ public class Player : MonoBehaviour
 
     public void LoadParty()
     {
-        path = Application.dataPath + "/PlayerInventory.JSON";
+        path = Application.dataPath + "/GameData" + "/PlayerInventory.JSON";
         if (File.Exists(path))
         {
             string content = File.ReadAllText(path);
@@ -106,7 +110,7 @@ public class Player : MonoBehaviour
 
     public void SaveParty()
     {
-        path = Application.dataPath + "/PlayerInventory.JSON";
+        path = Application.dataPath + "/GameData" + "/PlayerInventory.JSON";
         
 
         Monster m = new Monster();
@@ -132,7 +136,7 @@ public class Player : MonoBehaviour
     //temp testing of json format, will reference later for saving out playe stats and whatnot
     public void SaveData()
     {
-        path = Application.dataPath + "/MoveData.JSON";
+        path = Application.dataPath + "/GameData" + "/MoveData.JSON";
 
         Move m = new Move();
         m.moveNum = 0;
