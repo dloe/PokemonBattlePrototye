@@ -86,6 +86,7 @@ public class Monster
     /// </summary>
     public Monster()
     {
+        //Debug.Log("made monster");
         dexNum = 0;
         level = 0;
         type1 = 0;

@@ -67,7 +67,7 @@ public class Player : MonoBehaviour
     {
         myPlayerParty = new PlayerParty();
         //save overrides current json btw
-        //SaveParty();
+        SaveParty();
         LoadParty();
     }
 
@@ -85,7 +85,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            Debug.Log("Check path");
+            Debug.LogError("Error: Cannot find path to Moves Data path: " + path);
         }
     }
 
@@ -103,7 +103,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            Debug.Log("Check player inventory path");
+            Debug.LogError("Error: Cannot find path to Player party: " + path);
             //new player
         }
     }
@@ -111,7 +111,6 @@ public class Player : MonoBehaviour
     public void SaveParty()
     {
         path = Application.dataPath + "/GameData" + "/PlayerInventory.JSON";
-        
 
         Monster m = new Monster();
         m.currentHealth = 100;
@@ -119,17 +118,16 @@ public class Player : MonoBehaviour
         myPlayerParty.party[0] = m;
 
         string json = JsonUtility.ToJson(myPlayerParty);
-        Debug.Log(json);
+        //Debug.Log(json);
 
         if (File.Exists(path))
         {
-            //string content = File.ReadAllText(path.ToString());
             //Debug.Log(content);
             File.WriteAllText(path, json);
         }
         else
         {
-            Debug.Log("problem");
+            Debug.LogError("Error: Cannot find path to Player party: " + path);
         }
     }
 
@@ -145,7 +143,6 @@ public class Player : MonoBehaviour
         m.powerPoints = 2;
         m.moveDescription = "this is test prey it works";
 
-        //moveListT[0] = m;
         moveList.moveList[0] = m;
 
         string json = JsonUtility.ToJson(moveList);

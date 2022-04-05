@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -52,31 +53,56 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
 ///                 - contains stat rabges to generate (min to max)
 ///                 - level will be extername determination (50 as default for now)
 /// </summary>
+[Serializable]
 public class WildEncounterData
 {
     //will store info for each pokemon as struct
-    public struct PokeEncounter
-    {
-        public int dexNum;
-        //each move in our move list has a number (simple int array)
-        public int[] possibleMoves;
-        public int level;
-        //stats (min and max for each stat we choose randomly)
-        public int pMax_health;
-        public int pMin_health;
-        public int pMax_attack;
-        public int pMin_attack;
-        public int pMax_defense;
-        public int pMin_defense;
-        public int pMax_speAtt;
-        public int pMin_speAtt;
-        public int pMax_speDef;
-        public int pMin_speDef;
-        public int pMax_speed;
-        public int pMin_speed;
-    }
-
     public PokeEncounter[] encounterList;
 
+    public WildEncounterData()
+    {
+        Debug.Log("Ran data constructor");
+        encounterList = new PokeEncounter[10];
+    }
+}
 
+[Serializable]
+public class PokeEncounter
+{
+    public int dexNum;
+    //each move in our move list has a number (simple int array)
+    public int[] possibleMoves;
+    public int level;
+    //stats (min and max for each stat we choose randomly)
+    public int pMax_health;
+    public int pMin_health;
+    public int pMax_attack;
+    public int pMin_attack;
+    public int pMax_defense;
+    public int pMin_defense;
+    public int pMax_speAtt;
+    public int pMin_speAtt;
+    public int pMax_speDef;
+    public int pMin_speDef;
+    public int pMax_speed;
+    public int pMin_speed;
+
+    public PokeEncounter()
+    {
+        dexNum = 0;
+        possibleMoves = new int[8];
+        level = 50;
+        pMax_health = 0;
+        pMin_health = 0;
+        pMax_attack = 0;
+        pMin_attack = 0;
+        pMax_defense = 0;
+        pMin_defense = 0;
+        pMax_speAtt = 0;
+        pMin_speAtt = 0;
+        pMax_speDef = 0;
+        pMin_speDef = 0;
+        pMax_speed = 0;
+        pMin_speed = 0;
+    }
 }

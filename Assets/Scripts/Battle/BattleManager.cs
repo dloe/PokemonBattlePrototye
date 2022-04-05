@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class BattleManager : MonoBehaviour
 {
@@ -14,10 +15,17 @@ public class BattleManager : MonoBehaviour
     /// 
     /// - 
     /// </summary>
+    /// 
+
+    public WildEncounterData myEncounterData;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        myEncounterData = new WildEncounterData();
+        WildEncounterGenerator();
     }
 
     // Update is called once per frame
@@ -33,8 +41,7 @@ public class BattleManager : MonoBehaviour
     {
 
     }
-<<<<<<< Updated upstream
-=======
+
     /// <summary>
     /// - playActions()
     ///     - Takes the battle UI for inputs away
@@ -83,9 +90,33 @@ public class BattleManager : MonoBehaviour
     /// </summary>
     public void WildEncounterGenerator()
     {
+        LoadEncounterData();
+
 
     }
 
+    /// <summary>
+    /// Get Encounter data from json file
+    /// </summary>
+    void LoadEncounterData()
+    {
+        string encounterDataPath = Application.dataPath + "/GameData" + "/EncounterData.JSON";
+
+        if (File.Exists(encounterDataPath))
+        {
+            string content = File.ReadAllText(encounterDataPath);
+
+            //load 
+            JsonUtility.FromJsonOverwrite(content, this);
+            myEncounterData = JsonUtility.FromJson<WildEncounterData>(content);
+            Debug.Log("Encounter Data Loaded...");
+        }
+        else
+        {
+            Debug.LogError("Error: Cannot find path to WildEncounterData: " + encounterDataPath);
+        }
+    }
+
     #endregion
->>>>>>> Stashed changes
+
 }
