@@ -113,3 +113,22 @@ public class Monster
 
 
 }
+
+public class MonsterData
+{
+    /// <summary>
+    /// MonsterData.cs
+    /// Dylan Loe
+    /// 
+    /// Updated: 4/4/22
+    /// 
+    /// 
+    /// - stores ALL pokemon in game
+    /// - Storing all our Pokemon Data from our Json to be accessable from unity classes
+    /// </summary>
+    public Monster[] Pokedex;
+    public MonsterData()
+    {
+        Pokedex = new Monster[30];
+    }
+}

@@ -61,7 +61,6 @@ public class WildEncounterData
 
     public WildEncounterData()
     {
-        Debug.Log("Ran data constructor");
         encounterList = new PokeEncounter[10];
     }
 }

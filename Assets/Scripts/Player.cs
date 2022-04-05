@@ -26,22 +26,21 @@ public class Player : MonoBehaviour
 
     public PlayerParty myPlayerParty;
     public MovesStorage moveList;
+    public MonsterData pokeDex;
 
     //will need list of all available pokemon
 
 
-    string path;
+   // string path;
     
 
     // Start is called before the first frame update
     void Awake()
     {
         
-        
-
         SetUpMoveData();
         SetUpPlayerInfo();
-       
+        SetUpPokedexInfo();
     }
 
     // Update is called once per frame
@@ -67,14 +66,22 @@ public class Player : MonoBehaviour
     {
         myPlayerParty = new PlayerParty();
         //save overrides current json btw
-        SaveParty();
+        //SaveParty();
         LoadParty();
+    }
+
+    void SetUpPokedexInfo()
+    {
+        pokeDex = new MonsterData();
+        //SavePokedex();
+        LoadPokedex();
+
     }
 
     //get move lists - will rework but this works and we will use it for setting up the pokemons move sets
     public void LoadData()
     {
-        path = Application.dataPath + "/GameData" + "/MoveData.JSON";
+        string path = Application.dataPath + "/GameData" + "/MoveData.JSON";
         if (File.Exists(path))
         {
 
@@ -91,7 +98,7 @@ public class Player : MonoBehaviour
 
     public void LoadParty()
     {
-        path = Application.dataPath + "/GameData" + "/PlayerInventory.JSON";
+        string path = Application.dataPath + "/GameData" + "/PlayerInventory.JSON";
         if (File.Exists(path))
         {
             string content = File.ReadAllText(path);
@@ -110,7 +117,7 @@ public class Player : MonoBehaviour
 
     public void SaveParty()
     {
-        path = Application.dataPath + "/GameData" + "/PlayerInventory.JSON";
+        string path  = Application.dataPath + "/GameData" + "/PlayerInventory.JSON";
 
         Monster m = new Monster();
         m.currentHealth = 100;
@@ -134,7 +141,7 @@ public class Player : MonoBehaviour
     //temp testing of json format, will reference later for saving out playe stats and whatnot
     public void SaveData()
     {
-        path = Application.dataPath + "/GameData" + "/MoveData.JSON";
+        string path  = Application.dataPath + "/GameData" + "/MoveData.JSON";
 
         Move m = new Move();
         m.moveNum = 0;
@@ -153,5 +160,76 @@ public class Player : MonoBehaviour
 
     }
 
+
+    public void SavePokedex()
+    {
+        string pokeDexPath = Application.dataPath + "/GameData" + "/PokedexData.JSON";
+
+        Monster m = new Monster();
+        m.currentHealth = 100;
+        m.mName = "MONSTER TEST";
+        pokeDex.Pokedex[0] = m;
+
+        string json = JsonUtility.ToJson(pokeDex);
+        //Debug.Log(json);
+
+        if (File.Exists(pokeDexPath))
+        {
+            //Debug.Log(content);
+            File.WriteAllText(pokeDexPath, json);
+        }
+        else
+        {
+            Debug.LogError("Error: Cannot find path to PokedexData: " + pokeDexPath);
+        }
+    }
+
+    public void LoadPokedex()
+    {
+        string path = Application.dataPath + "/GameData" + "/PokedexData.JSON";
+        if (File.Exists(path))
+        {
+            string content = File.ReadAllText(path);
+
+            //JsonUtility.FromJsonOverwrite(content, this);
+            pokeDex = JsonUtility.FromJson<MonsterData>(content);
+            Debug.Log("Dex Data Loaded...");
+
+        }
+        else
+        {
+            Debug.LogError("Error: Cannot find path to Dex Data: " + path);
+            //new player
+        }
+    }
     #endregion
+
+
+
 }
+
+[SerializeField]
+public class PlayerParty
+{
+    /// <summary>
+    /// PlayerParty.cs
+    /// Dylan Loe
+    /// 
+    /// Updated: 4/3/2022
+    /// 
+    /// - will store players inventory/party
+    ///     - reads from json
+    /// </summary>
+    public Monster[] party;
+    public int money;
+    public int wins;
+
+    public PlayerParty()
+    {
+        party = new Monster[6];
+        money = 0;
+        wins = 0;
+    }
+
+}
+
