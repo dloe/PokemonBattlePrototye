@@ -425,6 +425,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33d33096bbe3e474f85eb9eeccd26b95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  battleType: 0
+  WildEncoounter_prefab: {fileID: 8799569747981626145, guid: e43abb6caa77aef468083f2156451fc1,
+    type: 3}
 --- !u!4 &230826969
 Transform:
   m_ObjectHideFlags: 0

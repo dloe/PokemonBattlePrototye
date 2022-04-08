@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class AI_Lvl1_WildEncounter : MonoBehaviour
 {
@@ -24,12 +25,19 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
     //wild pokemon
     public Monster wildPokemon;
     public BattleManager battleManager;
+    //ublic MonsterData pokeDex;
 
+    WildEncounterData myEncounterData;
+
+    private void Awake()
+    {
+        //InitialSetup();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     public void TurnActive()
@@ -43,17 +51,106 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
     }
 
 
+    #region Setup
+    /// <summary>
+    /// Runs in start
+    /// - sets up data for determining encounter
+    /// - runs setup for picking encounter 
+    /// </summary>
+    public void InitialSetup()
+    {
+        LoadEncounterData();
 
+        PickEncounter();
+    }
+
+    void PickEncounter()
+    {
+        Debug.Log("WildEncounter: Determining Encounter Pokemon...");
+
+        //pick random pokemon index
+        int pokeIndex = UnityEngine.Random.Range(0, myEncounterData.encounterList.Length - 1);
+        // Debug.Log(pokeIndex);
+        //Debug.Log(myEncounterData.encounterList[pokeIndex].dexNum);
+        PokeEncounter encounterInfo = myEncounterData.encounterList[pokeIndex];
+        Monster pokemonEncounter = battleManager.pokeDex.Pokedex[encounterInfo.dexNum];
+
+        //set stats
+        pokemonEncounter.maxHealth = pokemonEncounter.currentHealth = UnityEngine.Random.Range(encounterInfo.pMin_health, encounterInfo.pMax_health);
+        pokemonEncounter.maxAttack = pokemonEncounter.currentAttack = UnityEngine.Random.Range(encounterInfo.pMin_attack, encounterInfo.pMax_attack);
+        pokemonEncounter.maxDefense = pokemonEncounter.currentDefense = UnityEngine.Random.Range(encounterInfo.pMin_defense, encounterInfo.pMax_defense);
+        pokemonEncounter.maxSpeAtt = pokemonEncounter.currentSpeAtt = UnityEngine.Random.Range(encounterInfo.pMin_speAtt, encounterInfo.pMax_speAtt);
+        pokemonEncounter.maxSpeDef = pokemonEncounter.currentSpeDef = UnityEngine.Random.Range(encounterInfo.pMin_speDef, encounterInfo.pMax_speDef);
+        pokemonEncounter.maxSpeed = pokemonEncounter.currentSpeed = UnityEngine.Random.Range(encounterInfo.pMin_speed, encounterInfo.pMax_speed);
+
+        Debug.Log("WildEncounter: " + pokemonEncounter.mName);
+        Debug.Log("Level: " + pokemonEncounter.level);
+
+        //select moves (usually 3 - 4)
+        for (int moveCount = 0; moveCount < UnityEngine.Random.Range(3, 4); moveCount++)
+        {
+            int[] moveList = encounterInfo.possibleMoves;
+            //shuffle moves
+            ShuffleArray(moveList);
+            Move mov = battleManager.moveList.moveList[moveList[moveCount]];
+            pokemonEncounter.moves[moveCount] = mov;
+
+        }
+
+
+
+    }
+
+    #endregion
+
+    /// <summary>
+    /// Get Encounter data from json file
+    /// </summary>
+    void LoadEncounterData()
+    {
+        string encounterDataPath = Application.dataPath + "/GameData" + "/EncounterData.JSON";
+
+        if (File.Exists(encounterDataPath))
+        {
+            string content = File.ReadAllText(encounterDataPath);
+
+            //load
+            JsonUtility.FromJsonOverwrite(content, this);
+            myEncounterData = JsonUtility.FromJson<WildEncounterData>(content);
+            Debug.Log("Encounter Data Loaded...");
+        }
+        else
+        {
+            Debug.LogError("Error: Cannot find path to WildEncounterData: " + encounterDataPath);
+        }
+    }
+
+
+    void ShuffleArray(int[] a)
+    {
+        // Loops through array
+        for (int i = a.Length - 1; i > 0; i--)
+        {
+            // Randomize a number between 0 and i (so that the range decreases each time)
+            int rnd = UnityEngine.Random.Range(0, i);
+
+            // Save the value of the current i, otherwise it'll overright when we swap the values
+            int temp = a[i];
+
+            // Swap the new and old values
+            a[i] = a[rnd];
+            a[rnd] = temp;
+        }
+    }
 }
-
-/// <summary>
-/// For storage of the Wild Encounter Data from Json
-/// 
-///  each pokemon will have an array of available moves
-///                 - contains stat rabges to generate (min to max)
-///                 - level will be extername determination (50 as default for now)
-/// </summary>
-[Serializable]
+    /// <summary>
+    /// For storage of the Wild Encounter Data from Json
+    /// 
+    ///  each pokemon will have an array of available moves
+    ///                 - contains stat rabges to generate (min to max)
+    ///                 - level will be extername determination (50 as default for now)
+    /// </summary>
+    [Serializable]
 public class WildEncounterData
 {
     //will store info for each pokemon as struct

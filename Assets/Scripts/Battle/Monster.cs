@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [SerializeField]
-public enum Type
+public enum PokeType
 {
     None,
     Fire,
@@ -50,8 +50,8 @@ public class Monster
     [Header("Level")]
     public int level;
     [Header("Types")]
-    public Type type1;
-    public Type type2;
+    public PokeType type1;
+    public PokeType type2;
     [Header("Accuracy")]
     public int accuracy;
     [Header("Name")]

@@ -3,6 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
+[SerializeField]
+public enum BattleType
+{
+    None,
+    Wild,
+    Legend,
+    Trainer
+}
+
+
 public class BattleManager : MonoBehaviour
 {
     /// <summary>
@@ -47,16 +57,30 @@ public class BattleManager : MonoBehaviour
     /// </summary>
     ///
 
-    public WildEncounterData myEncounterData;
+    
 
+    public BattleType battleType;
 
+    [Header("Encounter Prefabs")]
+    public GameObject WildEncoounter_prefab;
+    GameObject myEncounter;
+    public PlayerParty myPlayerParty;
+    public MovesStorage moveList;
+    public MonsterData pokeDex;
+
+    private void Awake()
+    {
+        SetUpMoveData();
+        SetUpPlayerInfo();
+        SetUpPokedexInfo();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         initializeBattle();
-        myEncounterData = new WildEncounterData();
-        WildEncounterGenerator();
+
+        BattleSetup();
     }
 
     // Update is called once per frame
@@ -111,6 +135,37 @@ public class BattleManager : MonoBehaviour
     }
 
 
+    /// <summary>
+    /// Set up battle paraneters, depending on what type of battle we are going to have
+    ///     - reads enum (can be overriden in future update so can test specific scenarios)
+    ///     
+    /// </summary>
+    void BattleSetup()
+    {
+
+
+        switch (battleType)
+        {
+            case BattleType.None:
+                Debug.Log("BattleMan: No Battle Type Selected, defaulting to Wild Pokemon");
+                WildEncounterGenerator();
+                break;
+            case BattleType.Wild:
+                Debug.Log("BattleMan: Setting Up Wild Pokemon Encounter");
+                WildEncounterGenerator();
+                break;
+            case BattleType.Legend:
+                break;
+            case BattleType.Trainer:
+                break;
+            default:
+                Debug.Log("BattleManager: No Battle Type Selected, defaulting to Wild Pokemon");
+                WildEncounterGenerator();
+                break;
+        }
+        
+    }
+
     #region Wild Encounter Event
 
     /// <summary>
@@ -127,33 +182,171 @@ public class BattleManager : MonoBehaviour
     /// </summary>
     public void WildEncounterGenerator()
     {
-        LoadEncounterData();
+
+        myEncounter = Instantiate(WildEncoounter_prefab);
+        myEncounter.GetComponent<AI_Lvl1_WildEncounter>().battleManager = this;
+        myEncounter.GetComponent<AI_Lvl1_WildEncounter>().InitialSetup();
+       // myEncounter.GetComponent<AI_Lvl1_WildEncounter>().pokeDex = pokeDex;
 
 
     }
 
-    /// <summary>
-    /// Get Encounter data from json file
-    /// </summary>
-    void LoadEncounterData()
+    #endregion
+
+
+
+    #region SetupInfo
+
+    void SetUpMoveData()
     {
-        string encounterDataPath = Application.dataPath + "/GameData" + "/EncounterData.JSON";
+        moveList = new MovesStorage();
+        //loading json test
+        //overrides current json btw
+        //SaveData();
+        LoadData();
 
-        if (File.Exists(encounterDataPath))
+    }
+
+    void SetUpPlayerInfo()
+    {
+        myPlayerParty = new PlayerParty();
+        //save overrides current json btw
+        //SaveParty();
+        LoadParty();
+    }
+
+    void SetUpPokedexInfo()
+    {
+        pokeDex = new MonsterData();
+        //SavePokedex();
+        LoadPokedex();
+
+    }
+
+    //get move lists - will rework but this works and we will use it for setting up the pokemons move sets
+    public void LoadData()
+    {
+        string path = Application.dataPath + "/GameData" + "/MoveData.JSON";
+        if (File.Exists(path))
         {
-            string content = File.ReadAllText(encounterDataPath);
 
-            //load
-            JsonUtility.FromJsonOverwrite(content, this);
-            myEncounterData = JsonUtility.FromJson<WildEncounterData>(content);
-            Debug.Log("Encounter Data Loaded...");
+            string content = File.ReadAllText(path);
+            //JsonUtility.FromJsonOverwrite(moveData, this);
+            moveList = JsonUtility.FromJson<MovesStorage>(content);
+            Debug.Log("Move Data Loaded...");
         }
         else
         {
-            Debug.LogError("Error: Cannot find path to WildEncounterData: " + encounterDataPath);
+            Debug.LogError("Error: Cannot find path to Moves Data path: " + path);
         }
     }
 
+    public void LoadParty()
+    {
+        string path = Application.dataPath + "/GameData" + "/PlayerInventory.JSON";
+        if (File.Exists(path))
+        {
+            string content = File.ReadAllText(path);
+
+            //JsonUtility.FromJsonOverwrite(content, this);
+            myPlayerParty = JsonUtility.FromJson<PlayerParty>(content);
+            Debug.Log("Party Data Loaded...");
+
+        }
+        else
+        {
+            Debug.LogError("Error: Cannot find path to Player party: " + path);
+            //new player
+        }
+    }
+
+    public void SaveParty()
+    {
+        string path = Application.dataPath + "/GameData" + "/PlayerInventory.JSON";
+
+        Monster m = new Monster();
+        m.currentHealth = 100;
+        m.mName = "MONSTER TEST";
+        myPlayerParty.party[0] = m;
+
+        string json = JsonUtility.ToJson(myPlayerParty);
+        //Debug.Log(json);
+
+        if (File.Exists(path))
+        {
+            //Debug.Log(content);
+            File.WriteAllText(path, json);
+        }
+        else
+        {
+            Debug.LogError("Error: Cannot find path to Player party: " + path);
+        }
+    }
+
+    //temp testing of json format, will reference later for saving out playe stats and whatnot
+    public void SaveData()
+    {
+        string path = Application.dataPath + "/GameData" + "/MoveData.JSON";
+
+        Move m = new Move();
+        m.moveNum = 0;
+        m.moveName = "TEST";
+        m.baseAttackDamage = 69;
+        m.powerPoints = 2;
+        m.moveDescription = "this is test prey it works";
+
+        moveList.moveList[0] = m;
+
+        string json = JsonUtility.ToJson(moveList);
+        Debug.Log(json);
+
+        File.WriteAllText(path, json);
+
+
+    }
+
+
+    public void SavePokedex()
+    {
+        string pokeDexPath = Application.dataPath + "/GameData" + "/PokedexData.JSON";
+
+        Monster m = new Monster();
+        m.currentHealth = 100;
+        m.mName = "MONSTER TEST";
+        pokeDex.Pokedex[0] = m;
+
+        string json = JsonUtility.ToJson(pokeDex);
+        //Debug.Log(json);
+
+        if (File.Exists(pokeDexPath))
+        {
+            //Debug.Log(content);
+            File.WriteAllText(pokeDexPath, json);
+        }
+        else
+        {
+            Debug.LogError("Error: Cannot find path to PokedexData: " + pokeDexPath);
+        }
+    }
+
+    public void LoadPokedex()
+    {
+        string path = Application.dataPath + "/GameData" + "/PokedexData.JSON";
+        if (File.Exists(path))
+        {
+            string content = File.ReadAllText(path);
+
+            //JsonUtility.FromJsonOverwrite(content, this);
+            pokeDex = JsonUtility.FromJson<MonsterData>(content);
+            Debug.Log("Dex Data Loaded...");
+            Debug.Log(pokeDex.Pokedex[0].dexNum);
+        }
+        else
+        {
+            Debug.LogError("Error: Cannot find path to Dex Data: " + path);
+            //new player
+        }
+    }
     #endregion
 
 }

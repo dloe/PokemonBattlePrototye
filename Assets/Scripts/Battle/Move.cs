@@ -54,7 +54,7 @@ public class Move
     //move functionality
     public M_Functionality function;
     //what type of damage the move does
-    public Type type;
+    public PokeType type;
     //from -2 to +3, if both moves are the same it is up to the speed stat of the pokemon
     public int priority;
     //how many turns is this move (IE solar beam)
