@@ -24,6 +24,7 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
 
     //wild pokemon
     public Monster wildPokemon;
+    int moveCount = 0;
     public BattleManager battleManager;
     //ublic MonsterData pokeDex;
 
@@ -51,6 +52,27 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
     }
 
 
+    #region BattleInteractions
+
+    //called from battle manager when it is encounters turn to choose move
+    public Move ChooseMove()
+    {
+        int choice = UnityEngine.Random.Range(0, moveCount);
+        Move encounterMove = wildPokemon.moves[choice];
+        Debug.Log("Encounter: Choose move number " + choice + " -> " + encounterMove.moveName);
+        //move choose between 0 -> moveCount on array
+        //will send over info to battle manager
+        
+
+
+        return encounterMove;
+    }
+
+
+
+    #endregion
+
+
     #region Setup
     /// <summary>
     /// Runs in start
@@ -62,6 +84,8 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
         LoadEncounterData();
 
         PickEncounter();
+
+
     }
 
     void PickEncounter()
@@ -73,6 +97,7 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
         // Debug.Log(pokeIndex);
         //Debug.Log(myEncounterData.encounterList[pokeIndex].dexNum);
         PokeEncounter encounterInfo = myEncounterData.encounterList[pokeIndex];
+        //should have the stats like types and whatnot, will override the max and current to be specific to encounter (they default to 0)
         Monster pokemonEncounter = battleManager.pokeDex.Pokedex[encounterInfo.dexNum];
 
         //set stats
@@ -87,7 +112,8 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
         Debug.Log("Level: " + pokemonEncounter.level);
 
         //select moves (usually 3 - 4)
-        for (int moveCount = 0; moveCount < UnityEngine.Random.Range(3, 4); moveCount++)
+        int totalMoves = UnityEngine.Random.Range(3, 4);
+        for (moveCount = 0; moveCount < totalMoves; moveCount++)
         {
             int[] moveList = encounterInfo.possibleMoves;
             //shuffle moves
@@ -97,8 +123,10 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
 
         }
 
+        Debug.Log("Established Moves: " + totalMoves);
 
 
+        wildPokemon = pokemonEncounter;
     }
 
     #endregion

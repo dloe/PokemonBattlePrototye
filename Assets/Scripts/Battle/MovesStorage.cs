@@ -22,7 +22,7 @@ public class MovesStorage
 
     public MovesStorage()
     {
-        moveList = new Move[3];
+        moveList = new Move[4];
 
     }
 

@@ -4,13 +4,8 @@
       "dexNum": 1,
       "possibleMoves": [
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        1,
+        2
       ],
       "level": 50,
       "pMax_health": 0,
@@ -30,13 +25,9 @@
       "dexNum": 1,
       "possibleMoves": [
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        1,
+        2,
+        3
       ],
       "level": 50,
       "pMax_health": 0,

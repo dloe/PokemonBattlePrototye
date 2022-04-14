@@ -41,6 +41,20 @@
       "status": 0,
       "amount": 0,
       "accuracy": 100
+    },
+    {
+      "moveNum": 3,
+      "moveName": "Peck",
+      "baseAttackDamage": 3,
+      "powerPoints": 55,
+      "moveDescription": "Peck attack pecks enemy",
+      "function": 0,
+      "type": 0,
+      "priority": 0,
+      "turns": 0,
+      "status": 0,
+      "amount": 0,
+      "accuracy": 100
     }
   ]
 }
