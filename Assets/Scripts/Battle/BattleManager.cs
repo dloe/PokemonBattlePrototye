@@ -291,7 +291,7 @@ public class BattleManager : MonoBehaviour
         Move m = new Move();
         m.moveNum = 0;
         m.moveName = "TEST";
-        m.baseAttackDamage = 69;
+        m.power = 69;
         m.powerPoints = 2;
         m.moveDescription = "this is test prey it works";
 

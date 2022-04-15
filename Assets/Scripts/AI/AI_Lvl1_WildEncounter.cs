@@ -32,7 +32,7 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
 
     private void Awake()
     {
-        //InitialSetup();
+        
     }
 
     // Start is called before the first frame update

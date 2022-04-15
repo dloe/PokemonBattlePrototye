@@ -1,0 +1,8529 @@
+{
+  "moveList": [
+    {
+
+      "moveNum": "1",
+      "moveName": "Pound",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "35",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "2",
+      "moveName": "Karate Chop",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "25",
+      "power": "50",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "3",
+      "moveName": "Double Slap",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "15",
+      "accuracy": 85,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "4",
+      "moveName": "Comet Punch",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "18",
+      "accuracy": 85,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "5",
+      "moveName": "Mega Punch",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "80",
+      "accuracy": 85,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "6",
+      "moveName": "Pay Day",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "7",
+      "moveName": "Fire Punch",
+      "type": "1",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "75",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "8",
+      "moveName": "Ice Punch",
+      "type": "14",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "75",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "9",
+      "moveName": "Thunder Punch",
+      "type": "8",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "75",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "10",
+      "moveName": "Scratch",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "35",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "11",
+      "moveName": "Vice Grip",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "30",
+      "power": "55",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "12",
+      "moveName": "Guillotine",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "13",
+      "moveName": "Razor Wind",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "14",
+      "moveName": "Swords Dance",
+      "type": "4",
+      "category": 4,
+      "powerPoints": 20,
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "15",
+      "moveName": "Cut",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "30",
+      "power": "50",
+      "accuracy": 95,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "16",
+      "moveName": "Gust",
+      "type": "11",
+      "category": "2",
+      "powerPoints": "35",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "17",
+      "moveName": "Wing Attack",
+      "type": "11",
+      "category": "1",
+      "powerPoints": "35",
+      "power": 60,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "18",
+      "moveName": "Whirlwind",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "19",
+      "moveName": "Fly",
+      "type": "11",
+      "category": "1",
+      "powerPoints": "15",
+      "power": 90,
+      "accuracy": 95,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "20",
+      "moveName": "Bind",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "15",
+      "accuracy": 85,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "21",
+      "moveName": "Slam",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "80",
+      "accuracy": 75,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "22",
+      "moveName": "Vine Whip",
+      "type": 3,
+      "category": "1",
+      "powerPoints": 25,
+      "power": 45,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "23",
+      "moveName": "Stomp",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "65",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "24",
+      "moveName": "Double Kick",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "30",
+      "power": "30",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "25",
+      "moveName": "Mega Kick",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "120",
+      "accuracy": 75,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "26",
+      "moveName": "Jump Kick",
+      "type": "10",
+      "category": "1",
+      "powerPoints": 10,
+      "power": 100,
+      "accuracy": 95,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "27",
+      "moveName": "Rolling Kick",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "60",
+      "accuracy": 85,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "28",
+      "moveName": "Sand Attack",
+      "type": "13",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "29",
+      "moveName": "Headbutt",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "30",
+      "moveName": "Horn Attack",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "25",
+      "power": "65",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "31",
+      "moveName": "Fury Attack",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "15",
+      "accuracy": 85,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "32",
+      "moveName": "Horn Drill",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "33",
+      "moveName": "Tackle",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "35",
+      "power": 50,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "34",
+      "moveName": "Body Slam",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "85",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "35",
+      "moveName": "Wrap",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "15",
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "36",
+      "moveName": "Take Down",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "90",
+      "accuracy": 85,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "37",
+      "moveName": "Thrash",
+      "type": "4",
+      "category": "1",
+      "powerPoints": 10,
+      "power": 120,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "38",
+      "moveName": "Double-Edge",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "15",
+      "power": 120,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "39",
+      "moveName": "Tail Whip",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "40",
+      "moveName": "Poison Sting",
+      "type": "15",
+      "category": "1",
+      "powerPoints": "35",
+      "power": "15",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "41",
+      "moveName": "Twineedle",
+      "type": "5",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "25",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "42",
+      "moveName": "Pin Missile",
+      "type": "5",
+      "category": "1",
+      "powerPoints": "20",
+      "power": 25,
+      "accuracy": 95,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "43",
+      "moveName": "Leer",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "44",
+      "moveName": "Bite",
+      "type": "6",
+      "category": "1",
+      "powerPoints": "25",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "45",
+      "moveName": "Growl",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "46",
+      "moveName": "Roar",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "47",
+      "moveName": "Sing",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 55,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "48",
+      "moveName": "Supersonic",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 55,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "49",
+      "moveName": "Sonic Boom",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "20",
+      "power": null,
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "50",
+      "moveName": "Disable",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "51",
+      "moveName": "Acid",
+      "type": "15",
+      "category": "2",
+      "powerPoints": "30",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "52",
+      "moveName": "Ember",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "25",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "53",
+      "moveName": "Flamethrower",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "15",
+      "power": 90,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "54",
+      "moveName": "Mist",
+      "type": "14",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "55",
+      "moveName": "Water Gun",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "25",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "56",
+      "moveName": "Hydro Pump",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "5",
+      "power": 110,
+      "accuracy": 80,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "57",
+      "moveName": "Surf",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "15",
+      "power": 90,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "58",
+      "moveName": "Ice Beam",
+      "type": "14",
+      "category": "2",
+      "powerPoints": "10",
+      "power": 90,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "59",
+      "moveName": "Blizzard",
+      "type": "14",
+      "category": "2",
+      "powerPoints": "5",
+      "power": 110,
+      "accuracy": 70,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "60",
+      "moveName": "Psybeam",
+      "type": "16",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "65",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "61",
+      "moveName": "Bubble Beam",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "65",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "62",
+      "moveName": "Aurora Beam",
+      "type": "14",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "65",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "63",
+      "moveName": "Hyper Beam",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "150",
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "64",
+      "moveName": "Peck",
+      "type": "11",
+      "category": "1",
+      "powerPoints": "35",
+      "power": "35",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "65",
+      "moveName": "Drill Peck",
+      "type": "11",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "66",
+      "moveName": "Submission",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "25",
+      "power": "80",
+      "accuracy": 80,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "67",
+      "moveName": "Low Kick",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "68",
+      "moveName": "Counter",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "69",
+      "moveName": "Seismic Toss",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "70",
+      "moveName": "Strength",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "71",
+      "moveName": "Absorb",
+      "type": 3,
+      "category": "2",
+      "powerPoints": 25,
+      "power": "20",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "72",
+      "moveName": "Mega Drain",
+      "type": 3,
+      "category": "2",
+      "powerPoints": 15,
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "73",
+      "moveName": "Leech Seed",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "74",
+      "moveName": "Growth",
+      "type": "4",
+      "category": 4,
+      "powerPoints": 20,
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "75",
+      "moveName": "Razor Leaf",
+      "type": 3,
+      "category": "1",
+      "powerPoints": "25",
+      "power": "55",
+      "accuracy": 95,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "76",
+      "moveName": "Solar Beam",
+      "type": 3,
+      "category": "2",
+      "powerPoints": "10",
+      "power": "120",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "77",
+      "moveName": "Poison Powder",
+      "type": "15",
+      "category": 4,
+      "powerPoints": "35",
+      "power": 0,
+      "accuracy": 75,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "78",
+      "moveName": "Stun Spore",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 75,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "79",
+      "moveName": "Sleep Powder",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 75,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "80",
+      "moveName": "Petal Dance",
+      "type": 3,
+      "category": "2",
+      "powerPoints": 10,
+      "power": 120,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "81",
+      "moveName": "String Shot",
+      "type": "5",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 95,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "82",
+      "moveName": "Dragon Rage",
+      "type": "7",
+      "category": "2",
+      "powerPoints": "10",
+      "power": null,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "83",
+      "moveName": "Fire Spin",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "15",
+      "power": 35,
+      "accuracy": 85,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "84",
+      "moveName": "Thunder Shock",
+      "type": "8",
+      "category": "2",
+      "powerPoints": "30",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "85",
+      "moveName": "Thunderbolt",
+      "type": "8",
+      "category": "2",
+      "powerPoints": "15",
+      "power": 90,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "86",
+      "moveName": "Thunder Wave",
+      "type": "8",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "87",
+      "moveName": "Thunder",
+      "type": "8",
+      "category": "2",
+      "powerPoints": "10",
+      "power": 110,
+      "accuracy": 70,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "88",
+      "moveName": "Rock Throw",
+      "type": "17",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "50",
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "89",
+      "moveName": "Earthquake",
+      "type": "13",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "100",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "90",
+      "moveName": "Fissure",
+      "type": "13",
+      "category": "1",
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "91",
+      "moveName": "Dig",
+      "type": "13",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 80,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "92",
+      "moveName": "Toxic",
+      "type": "15",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "93",
+      "moveName": "Confusion",
+      "type": "16",
+      "category": "2",
+      "powerPoints": "25",
+      "power": "50",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "94",
+      "moveName": "16",
+      "type": "16",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "90",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "95",
+      "moveName": "Hypnosis",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 60,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "96",
+      "moveName": "Meditate",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "97",
+      "moveName": "Agility",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "98",
+      "moveName": "Quick Attack",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "30",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "99",
+      "moveName": "Rage",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "20",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "100",
+      "moveName": "Teleport",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "101",
+      "moveName": "Night Shade",
+      "type": "12",
+      "category": "2",
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "102",
+      "moveName": "Mimic",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "103",
+      "moveName": "Screech",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 85,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "104",
+      "moveName": "Double Team",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "105",
+      "moveName": "Recover",
+      "type": "4",
+      "category": 4,
+      "powerPoints": 10,
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "106",
+      "moveName": "Harden",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "107",
+      "moveName": "Minimize",
+      "type": "4",
+      "category": 4,
+      "powerPoints": 10,
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "108",
+      "moveName": "Smokescreen",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "109",
+      "moveName": "Confuse Ray",
+      "type": "12",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "110",
+      "moveName": "Withdraw",
+      "type": "2",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "111",
+      "moveName": "Defense Curl",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "112",
+      "moveName": "Barrier",
+      "type": "16",
+      "category": 4,
+      "powerPoints": 20,
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "113",
+      "moveName": "Light Screen",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "114",
+      "moveName": "Haze",
+      "type": "14",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "115",
+      "moveName": "Reflect",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "116",
+      "moveName": "Focus Energy",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "117",
+      "moveName": "Bide",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "118",
+      "moveName": "Metronome",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "119",
+      "moveName": "Mirror Move",
+      "type": "11",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "120",
+      "moveName": "Self-Destruct",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "5",
+      "power": 200,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "121",
+      "moveName": "Egg Bomb",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "100",
+      "accuracy": 75,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "122",
+      "moveName": "Lick",
+      "type": "12",
+      "category": "1",
+      "powerPoints": "30",
+      "power": 30,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "123",
+      "moveName": "Smog",
+      "type": "15",
+      "category": "2",
+      "powerPoints": "20",
+      "power": 30,
+      "accuracy": 70,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "124",
+      "moveName": "Sludge",
+      "type": "15",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "65",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "125",
+      "moveName": "Bone Club",
+      "type": "13",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "65",
+      "accuracy": 85,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "126",
+      "moveName": "Fire Blast",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "5",
+      "power": 110,
+      "accuracy": 85,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "127",
+      "moveName": "Waterfall",
+      "type": "2",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "128",
+      "moveName": "Clamp",
+      "type": "2",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "35",
+      "accuracy": 85,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "129",
+      "moveName": "Swift",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "60",
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "130",
+      "moveName": "Skull Bash",
+      "type": "4",
+      "category": "1",
+      "powerPoints": 10,
+      "power": 130,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "131",
+      "moveName": "Spike Cannon",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "20",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "132",
+      "moveName": "Constrict",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "35",
+      "power": "10",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "133",
+      "moveName": "Amnesia",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "134",
+      "moveName": "Kinesis",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 80,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "135",
+      "moveName": "Soft-Boiled",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "136",
+      "moveName": "High Jump Kick",
+      "type": "10",
+      "category": "1",
+      "powerPoints": 10,
+      "power": 130,
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "137",
+      "moveName": "Glare",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "138",
+      "moveName": "Dream Eater",
+      "type": "16",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "100",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "139",
+      "moveName": "Poison Gas",
+      "type": "15",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "140",
+      "moveName": "Barrage",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "15",
+      "accuracy": 85,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "141",
+      "moveName": "Leech Life",
+      "type": "5",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "20",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "142",
+      "moveName": "Lovely Kiss",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 75,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "143",
+      "moveName": "Sky Attack",
+      "type": "11",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "140",
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "144",
+      "moveName": "Transform",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "145",
+      "moveName": "Bubble",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "30",
+      "power": 40,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "146",
+      "moveName": "Dizzy Punch",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "147",
+      "moveName": "Spore",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "148",
+      "moveName": "Flash",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "149",
+      "moveName": "Psywave",
+      "type": "16",
+      "category": "2",
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "150",
+      "moveName": "Splash",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "151",
+      "moveName": "Acid Armor",
+      "type": "15",
+      "category": 4,
+      "powerPoints": 20,
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "152",
+      "moveName": "Crabhammer",
+      "type": "2",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 100,
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "153",
+      "moveName": "Explosion",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "5",
+      "power": 250,
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "154",
+      "moveName": "Fury Swipes",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "18",
+      "accuracy": 80,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "155",
+      "moveName": "Bonemerang",
+      "type": "13",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "50",
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "156",
+      "moveName": "Rest",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "157",
+      "moveName": "Rock Slide",
+      "type": "17",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "75",
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "158",
+      "moveName": "Hyper Fang",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "159",
+      "moveName": "Sharpen",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "160",
+      "moveName": "Conversion",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "161",
+      "moveName": "Tri Attack",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "162",
+      "moveName": "Super Fang",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 90,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "163",
+      "moveName": "Slash",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "164",
+      "moveName": "Substitute",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "165",
+      "moveName": "Struggle",
+      "type": "4",
+      "category": "1",
+      "powerPoints": 1,
+      "power": "50",
+      "accuracy": 100,
+      "Gen": "I",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "166",
+      "moveName": "Sketch",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "1",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "167",
+      "moveName": "Triple Kick",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "10",
+      "accuracy": 90,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "168",
+      "moveName": "Thief",
+      "type": "6",
+      "category": "1",
+      "powerPoints": 25,
+      "power": 60,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "169",
+      "moveName": "Spider Web",
+      "type": "5",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "170",
+      "moveName": "Mind Reader",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "171",
+      "moveName": "Nightmare",
+      "type": "12",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "172",
+      "moveName": "Flame Wheel",
+      "type": "1",
+      "category": "1",
+      "powerPoints": "25",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "173",
+      "moveName": "Snore",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "15",
+      "power": 50,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "174",
+      "moveName": "Curse",
+      "type": "12",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "175",
+      "moveName": "Flail",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "176",
+      "moveName": "Conversion 2",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "177",
+      "moveName": "Aeroblast",
+      "type": "11",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "100",
+      "accuracy": 95,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "178",
+      "moveName": "Cotton Spore",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "179",
+      "moveName": "Reversal",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "180",
+      "moveName": "Spite",
+      "type": "12",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "181",
+      "moveName": "Powder Snow",
+      "type": "14",
+      "category": "2",
+      "powerPoints": "25",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "182",
+      "moveName": "Protect",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "183",
+      "moveName": "Mach Punch",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "30",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "184",
+      "moveName": "Scary Face",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "185",
+      "moveName": "Feint Attack",
+      "type": "6",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "60",
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "186",
+      "moveName": "Sweet Kiss",
+      "type": "9",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 75,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "187",
+      "moveName": "Belly Drum",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "188",
+      "moveName": "Sludge Bomb",
+      "type": "15",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "90",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "189",
+      "moveName": "Mud-Slap",
+      "type": "13",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "20",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "190",
+      "moveName": "Octazooka",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "65",
+      "accuracy": 85,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "191",
+      "moveName": "Spikes",
+      "type": "13",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "192",
+      "moveName": "Zap Cannon",
+      "type": "8",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "120",
+      "accuracy": 50,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "193",
+      "moveName": "Foresight",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "194",
+      "moveName": "Destiny Bond",
+      "type": "12",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "195",
+      "moveName": "Perish Song",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "196",
+      "moveName": "Icy Wind",
+      "type": "14",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "55",
+      "accuracy": 95,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "197",
+      "moveName": "Detect",
+      "type": "10",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "198",
+      "moveName": "Bone Rush",
+      "type": "13",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "25",
+      "accuracy": 90,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "199",
+      "moveName": "Lock-On",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "200",
+      "moveName": "Outrage",
+      "type": "7",
+      "category": "1",
+      "powerPoints": "15",
+      "power": 120,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "201",
+      "moveName": "Sandstorm",
+      "type": "17",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "202",
+      "moveName": "Giga Drain",
+      "type": 3,
+      "category": "2",
+      "powerPoints": 10,
+      "power": 75,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "203",
+      "moveName": "Endure",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "204",
+      "moveName": "Charm",
+      "type": "9",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "205",
+      "moveName": "Rollout",
+      "type": "17",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "30",
+      "accuracy": 90,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "206",
+      "moveName": "False Swipe",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "40",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "207",
+      "moveName": "Swagger",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 90,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "208",
+      "moveName": "Milk Drink",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "209",
+      "moveName": "Spark",
+      "type": "8",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "65",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "210",
+      "moveName": "Fury Cutter",
+      "type": "5",
+      "category": "1",
+      "powerPoints": "20",
+      "power": 40,
+      "accuracy": 95,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "211",
+      "moveName": "Steel Wing",
+      "type": "18",
+      "category": "1",
+      "powerPoints": "25",
+      "power": "70",
+      "accuracy": 90,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "212",
+      "moveName": "Mean Look",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "213",
+      "moveName": "Attract",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "214",
+      "moveName": "Sleep Talk",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "215",
+      "moveName": "Heal Bell",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "216",
+      "moveName": "Return",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "217",
+      "moveName": "Present",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 90,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "218",
+      "moveName": "Frustration",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "219",
+      "moveName": "Safeguard",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "25",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "220",
+      "moveName": "Pain Split",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "221",
+      "moveName": "Sacred Fire",
+      "type": "1",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "100",
+      "accuracy": 95,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "222",
+      "moveName": "Magnitude",
+      "type": "13",
+      "category": "1",
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "223",
+      "moveName": "Dynamic Punch",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "100",
+      "accuracy": 50,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "224",
+      "moveName": "Megahorn",
+      "type": "5",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "120",
+      "accuracy": 85,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "225",
+      "moveName": "Dragon Breath",
+      "type": "7",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "226",
+      "moveName": "Baton Pass",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "227",
+      "moveName": "Encore",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "228",
+      "moveName": "Pursuit",
+      "type": "6",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "229",
+      "moveName": "Rapid Spin",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "40",
+      "power": "20",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "230",
+      "moveName": "Sweet Scent",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "231",
+      "moveName": "Iron Tail",
+      "type": "18",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "100",
+      "accuracy": 75,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "232",
+      "moveName": "Metal Claw",
+      "type": "18",
+      "category": "1",
+      "powerPoints": "35",
+      "power": "50",
+      "accuracy": 95,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "233",
+      "moveName": "Vital Throw",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "234",
+      "moveName": "Morning Sun",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "235",
+      "moveName": "Synthesis",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "236",
+      "moveName": "Moonlight",
+      "type": "9",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "237",
+      "moveName": "Hidden power",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "15",
+      "power": 60,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "238",
+      "moveName": "Cross Chop",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "100",
+      "accuracy": 80,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "239",
+      "moveName": "Twister",
+      "type": "7",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "240",
+      "moveName": "Rain Dance",
+      "type": "2",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "241",
+      "moveName": "Sunny Day",
+      "type": "1",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "242",
+      "moveName": "Crunch",
+      "type": "6",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "243",
+      "moveName": "Mirror Coat",
+      "type": "16",
+      "category": "2",
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "244",
+      "moveName": "Psych Up",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "245",
+      "moveName": "Extreme Speed",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "246",
+      "moveName": "Ancient power",
+      "type": "17",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "247",
+      "moveName": "Shadow",
+      "type": "12",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "248",
+      "moveName": "Future Sight",
+      "type": "16",
+      "category": "2",
+      "powerPoints": 10,
+      "power": 120,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "249",
+      "moveName": "Rock Smash",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "15",
+      "power": 40,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "250",
+      "moveName": "Whirlpool",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "15",
+      "power": 35,
+      "accuracy": 85,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "251",
+      "moveName": "Beat Up",
+      "type": "6",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "II",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "252",
+      "moveName": "Fake Out",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "253",
+      "moveName": "Uproar",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "10",
+      "power": 90,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "254",
+      "moveName": "Stockpile",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "255",
+      "moveName": "Spit Up",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "256",
+      "moveName": "Swallow",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "257",
+      "moveName": "Heat Wave",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "10",
+      "power": 95,
+      "accuracy": 90,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "258",
+      "moveName": "Hail",
+      "type": "14",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "259",
+      "moveName": "Torment",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "260",
+      "moveName": "Flatter",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "261",
+      "moveName": "Will-O-Wisp",
+      "type": "1",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 85,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "262",
+      "moveName": "Memento",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "263",
+      "moveName": "Facade",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "264",
+      "moveName": "Focus Punch",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "150",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "265",
+      "moveName": "Smelling Salts",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 70,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "266",
+      "moveName": "Follow Me",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "267",
+      "moveName": "Nature power",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "268",
+      "moveName": "Charge",
+      "type": "8",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "269",
+      "moveName": "Taunt",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "270",
+      "moveName": "Helping Hand",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "271",
+      "moveName": "Trick",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "272",
+      "moveName": "Role Play",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "273",
+      "moveName": "Wish",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "274",
+      "moveName": "Assist",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "275",
+      "moveName": "Ingrain",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "276",
+      "moveName": "Superpower",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "120",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "277",
+      "moveName": "Magic Coat",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "278",
+      "moveName": "Recycle",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "279",
+      "moveName": "Revenge",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "280",
+      "moveName": "Brick Break",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "75",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "281",
+      "moveName": "Yawn",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "282",
+      "moveName": "Knock Off",
+      "type": "6",
+      "category": "1",
+      "powerPoints": "20",
+      "power": 65,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "283",
+      "moveName": "Endeavor",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "284",
+      "moveName": "Eruption",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "285",
+      "moveName": "Skill Swap",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "286",
+      "moveName": "Imprison",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "287",
+      "moveName": "Refresh",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "288",
+      "moveName": "Grudge",
+      "type": "12",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "289",
+      "moveName": "Snatch",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "290",
+      "moveName": "Secret power",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "291",
+      "moveName": "Dive",
+      "type": "2",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "292",
+      "moveName": "Arm Thrust",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "15",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "293",
+      "moveName": "Camouflage",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "294",
+      "moveName": "Tail Glow",
+      "type": "5",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "295",
+      "moveName": "Luster Purge",
+      "type": "16",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "296",
+      "moveName": "Mist",
+      "type": "16",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "297",
+      "moveName": "Feather Dance",
+      "type": "11",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "298",
+      "moveName": "Teeter Dance",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "299",
+      "moveName": "Blaze Kick",
+      "type": "1",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "85",
+      "accuracy": 90,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "300",
+      "moveName": "Mud Sport",
+      "type": "13",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "301",
+      "moveName": "14",
+      "type": "14",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "30",
+      "accuracy": 90,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "302",
+      "moveName": "Needle Arm",
+      "type": 3,
+      "category": "1",
+      "powerPoints": "15",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "303",
+      "moveName": "Slack Off",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "304",
+      "moveName": "Hyper Voice",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "90",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "305",
+      "moveName": "Poison Fang",
+      "type": "15",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "50",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "306",
+      "moveName": "Crush Claw",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "75",
+      "accuracy": 95,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "307",
+      "moveName": "Blast Burn",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "150",
+      "accuracy": 90,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "308",
+      "moveName": "Hydro Cannon",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "150",
+      "accuracy": 90,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "309",
+      "moveName": "Meteor Mash",
+      "type": "18",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 90,
+      "accuracy": 90,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "310",
+      "moveName": "Astonish",
+      "type": "12",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "30",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "311",
+      "moveName": "Weather",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "50",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "312",
+      "moveName": "Aromatherapy",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "313",
+      "moveName": "Fake Tears",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "314",
+      "moveName": "Air Cutter",
+      "type": "11",
+      "category": "2",
+      "powerPoints": "25",
+      "power": 60,
+      "accuracy": 95,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "315",
+      "moveName": "Overheat",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "5",
+      "power": 130,
+      "accuracy": 90,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "316",
+      "moveName": "Odor Sleuth",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "317",
+      "moveName": "Rock Tomb",
+      "type": "17",
+      "category": "1",
+      "powerPoints": 15,
+      "power": 60,
+      "accuracy": 95,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "318",
+      "moveName": "Silver Wind",
+      "type": "5",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "319",
+      "moveName": "Metal Sound",
+      "type": "18",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 85,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "320",
+      "moveName": "Grass Whistle",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 55,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "321",
+      "moveName": "Tickle",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "322",
+      "moveName": "Cosmic power",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "323",
+      "moveName": "Water Spout",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "324",
+      "moveName": "Signal Beam",
+      "type": "5",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "75",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "325",
+      "moveName": "Shadow Punch",
+      "type": "12",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "60",
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "326",
+      "moveName": "Extrasensory",
+      "type": "16",
+      "category": "2",
+      "powerPoints": 20,
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "327",
+      "moveName": "Sky UpowerPointsercut",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "85",
+      "accuracy": 90,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "328",
+      "moveName": "Sand Tomb",
+      "type": "13",
+      "category": "1",
+      "powerPoints": "15",
+      "power": 35,
+      "accuracy": 85,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "329",
+      "moveName": "Sheer Cold",
+      "type": "14",
+      "category": "2",
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "330",
+      "moveName": "Muddy Water",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "10",
+      "power": 90,
+      "accuracy": 85,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "331",
+      "moveName": "Bullet Seed",
+      "type": 3,
+      "category": "1",
+      "powerPoints": "30",
+      "power": 25,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "332",
+      "moveName": "Aerial Ace",
+      "type": "11",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "60",
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "333",
+      "moveName": "Icicle Spear",
+      "type": "14",
+      "category": "1",
+      "powerPoints": "30",
+      "power": 25,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "334",
+      "moveName": "Iron Defense",
+      "type": "18",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "335",
+      "moveName": "Block",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "336",
+      "moveName": "Howl",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "337",
+      "moveName": "Dragon Claw",
+      "type": "7",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "338",
+      "moveName": "Frenzy Plant",
+      "type": 3,
+      "category": "2",
+      "powerPoints": "5",
+      "power": "150",
+      "accuracy": 90,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "339",
+      "moveName": "Bulk Up",
+      "type": "10",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "340",
+      "moveName": "Bounce",
+      "type": "11",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "85",
+      "accuracy": 85,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "341",
+      "moveName": "Mud Shot",
+      "type": "13",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "55",
+      "accuracy": 95,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "342",
+      "moveName": "Poison Tail",
+      "type": "15",
+      "category": "1",
+      "powerPoints": "25",
+      "power": "50",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "343",
+      "moveName": "Covet",
+      "type": "4",
+      "category": "1",
+      "powerPoints": 25,
+      "power": 60,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "344",
+      "moveName": "Volt Tackle",
+      "type": "8",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "120",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "345",
+      "moveName": "Magical Leaf",
+      "type": 3,
+      "category": "2",
+      "powerPoints": "20",
+      "power": "60",
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "346",
+      "moveName": "Water Sport",
+      "type": "2",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "347",
+      "moveName": "Calm Mind",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "348",
+      "moveName": "Leaf Blade",
+      "type": 3,
+      "category": "1",
+      "powerPoints": "15",
+      "power": "90",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "349",
+      "moveName": "Dragon Dance",
+      "type": "7",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "350",
+      "moveName": "Rock Blast",
+      "type": "17",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "25",
+      "accuracy": 90,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "351",
+      "moveName": "Shock Wave",
+      "type": "8",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "60",
+      "accuracy": 0,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "352",
+      "moveName": "Water Pulse",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "353",
+      "moveName": "Doom Desire",
+      "type": "18",
+      "category": "2",
+      "powerPoints": "5",
+      "power": 140,
+      "accuracy": 100,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "354",
+      "moveName": "Psycho Boost",
+      "type": "16",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "140",
+      "accuracy": 90,
+      "Gen": "III",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "355",
+      "moveName": "Roost",
+      "type": "11",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "356",
+      "moveName": "Gravity",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "357",
+      "moveName": "Miracle Eye",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "358",
+      "moveName": "Wake-Up Slap",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 70,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "359",
+      "moveName": "Hammer Arm",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "100",
+      "accuracy": 90,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "360",
+      "moveName": "Gyro",
+      "type": "18",
+      "category": "1",
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "361",
+      "moveName": "Healing Wish",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "362",
+      "moveName": "Brine",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "65",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "363",
+      "moveName": "Natural Gift",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "364",
+      "moveName": "Feint",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 30,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "365",
+      "moveName": "Pluck",
+      "type": "11",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "366",
+      "moveName": "Tailwind",
+      "type": "11",
+      "category": 4,
+      "powerPoints": 15,
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "367",
+      "moveName": "Acupressure",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "368",
+      "moveName": "Metal Burst",
+      "type": "18",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "369",
+      "moveName": "U-turn",
+      "type": "5",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "370",
+      "moveName": "Close Combat",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "120",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "371",
+      "moveName": "Payback",
+      "type": "6",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "50",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "372",
+      "moveName": "Assurance",
+      "type": "6",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 60,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "373",
+      "moveName": "Embargo",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "374",
+      "moveName": "Fling",
+      "type": "6",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "375",
+      "moveName": "Psycho Shift",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "376",
+      "moveName": "Trump Card",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "377",
+      "moveName": "Heal Block",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "378",
+      "moveName": "Wring Out",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "379",
+      "moveName": "power Trick",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "380",
+      "moveName": "Gastro Acid",
+      "type": "15",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "381",
+      "moveName": "Lucky Chant",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "382",
+      "moveName": "Me First",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "383",
+      "moveName": "Copycat",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "384",
+      "moveName": "power Swap",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "385",
+      "moveName": "Guard Swap",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "386",
+      "moveName": "Punishment",
+      "type": "6",
+      "category": "1",
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "387",
+      "moveName": "Last Resort",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "5",
+      "power": 140,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "388",
+      "moveName": "Worry Seed",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "389",
+      "moveName": "Sucker Punch",
+      "type": "6",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "390",
+      "moveName": "Toxic Spikes",
+      "type": "15",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "391",
+      "moveName": "Heart Swap",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "392",
+      "moveName": "Aqua Ring",
+      "type": "2",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "393",
+      "moveName": "Magnet Rise",
+      "type": "8",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "394",
+      "moveName": "Flare Blitz",
+      "type": "1",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "120",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "395",
+      "moveName": "Force Palm",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "396",
+      "moveName": "Aura Sphere",
+      "type": "10",
+      "category": "2",
+      "powerPoints": "20",
+      "power": 80,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "397",
+      "moveName": "Rock Polish",
+      "type": "17",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "398",
+      "moveName": "Poison Jab",
+      "type": "15",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "399",
+      "moveName": "Dark Pulse",
+      "type": "6",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "400",
+      "moveName": "Night Slash",
+      "type": "6",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "401",
+      "moveName": "Aqua Tail",
+      "type": "2",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "90",
+      "accuracy": 90,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "402",
+      "moveName": "Seed Bomb",
+      "type": 3,
+      "category": "1",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "403",
+      "moveName": "Air Slash",
+      "type": "11",
+      "category": "2",
+      "powerPoints": 15,
+      "power": "75",
+      "accuracy": 95,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "404",
+      "moveName": "X-Scissor",
+      "type": "5",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "405",
+      "moveName": "Bug Buzz",
+      "type": "5",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "90",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "406",
+      "moveName": "Dragon Pulse",
+      "type": "7",
+      "category": "2",
+      "powerPoints": "10",
+      "power": 85,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "407",
+      "moveName": "Dragon Rush",
+      "type": "7",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "100",
+      "accuracy": 75,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "408",
+      "moveName": "power Gem",
+      "type": "17",
+      "category": "2",
+      "powerPoints": "20",
+      "power": 80,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "409",
+      "moveName": "Drain Punch",
+      "type": "10",
+      "category": "1",
+      "powerPoints": 10,
+      "power": 75,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "410",
+      "moveName": "Vacuum Wave",
+      "type": "10",
+      "category": "2",
+      "powerPoints": "30",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "411",
+      "moveName": "Focus Blast",
+      "type": "10",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "120",
+      "accuracy": 70,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "412",
+      "moveName": "Energy",
+      "type": 3,
+      "category": "2",
+      "powerPoints": "10",
+      "power": 90,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "413",
+      "moveName": "Brave Bird",
+      "type": "11",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "120",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "414",
+      "moveName": "Earth power",
+      "type": "13",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "90",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "415",
+      "moveName": "Switcheroo",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "416",
+      "moveName": "Giga Impact",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "150",
+      "accuracy": 90,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "417",
+      "moveName": "Nasty Plot",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "418",
+      "moveName": "Bullet Punch",
+      "type": "18",
+      "category": "1",
+      "powerPoints": "30",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "419",
+      "moveName": "Avalanche",
+      "type": "14",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "420",
+      "moveName": "Ice Shard",
+      "type": "14",
+      "category": "1",
+      "powerPoints": "30",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "421",
+      "moveName": "Shadow Claw",
+      "type": "12",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "422",
+      "moveName": "Thunder Fang",
+      "type": "8",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "65",
+      "accuracy": 95,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "423",
+      "moveName": "Ice Fang",
+      "type": "14",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "65",
+      "accuracy": 95,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "424",
+      "moveName": "Fire Fang",
+      "type": "1",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "65",
+      "accuracy": 95,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "425",
+      "moveName": "Shadow Sneak",
+      "type": "12",
+      "category": "1",
+      "powerPoints": "30",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "426",
+      "moveName": "Mud Bomb",
+      "type": "13",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "65",
+      "accuracy": 85,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "427",
+      "moveName": "Psycho Cut",
+      "type": "16",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "428",
+      "moveName": "Zen Headbutt",
+      "type": "16",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 90,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "429",
+      "moveName": "Mirror Shot",
+      "type": "18",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "65",
+      "accuracy": 85,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "430",
+      "moveName": "Flash Cannon",
+      "type": "18",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "431",
+      "moveName": "Rock Climb",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "90",
+      "accuracy": 85,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "432",
+      "moveName": "Defog",
+      "type": "11",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "433",
+      "moveName": "Trick Room",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "434",
+      "moveName": "Draco Meteor",
+      "type": "7",
+      "category": "2",
+      "powerPoints": "5",
+      "power": 130,
+      "accuracy": 90,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "435",
+      "moveName": "Discharge",
+      "type": "8",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "436",
+      "moveName": "Lava Plume",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "437",
+      "moveName": "Leaf Storm",
+      "type": 3,
+      "category": "2",
+      "powerPoints": "5",
+      "power": 130,
+      "accuracy": 90,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "438",
+      "moveName": "power Whip",
+      "type": 3,
+      "category": "1",
+      "powerPoints": "10",
+      "power": "120",
+      "accuracy": 85,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "439",
+      "moveName": "Rock Wrecker",
+      "type": "17",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "150",
+      "accuracy": 90,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "440",
+      "moveName": "Cross Poison",
+      "type": "15",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "441",
+      "moveName": "Gunk Shot",
+      "type": "15",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "120",
+      "accuracy": 80,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "442",
+      "moveName": "Iron Head",
+      "type": "18",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "443",
+      "moveName": "Magnet Bomb",
+      "type": "18",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "60",
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "444",
+      "moveName": "Stone Edge",
+      "type": "17",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "100",
+      "accuracy": 80,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "445",
+      "moveName": "Captivate",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "446",
+      "moveName": "Stealth Rock",
+      "type": "17",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "447",
+      "moveName": "Grass Knot",
+      "type": 3,
+      "category": "2",
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "448",
+      "moveName": "Chatter",
+      "type": "11",
+      "category": "2",
+      "powerPoints": "20",
+      "power": 65,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "449",
+      "moveName": "Judgment",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "100",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "450",
+      "moveName": "Bug Bite",
+      "type": "5",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "451",
+      "moveName": "Charge Beam",
+      "type": "8",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "50",
+      "accuracy": 90,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "452",
+      "moveName": "Wood Hammer",
+      "type": 3,
+      "category": "1",
+      "powerPoints": "15",
+      "power": "120",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "453",
+      "moveName": "Aqua Jet",
+      "type": "2",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "454",
+      "moveName": "Attack Order",
+      "type": "5",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "90",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "455",
+      "moveName": "Defend Order",
+      "type": "5",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "456",
+      "moveName": "Heal Order",
+      "type": "5",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "457",
+      "moveName": "Head Smash",
+      "type": "17",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "150",
+      "accuracy": 80,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "458",
+      "moveName": "Double Hit",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "35",
+      "accuracy": 90,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "459",
+      "moveName": "Roar of Time",
+      "type": "7",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "150",
+      "accuracy": 90,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "460",
+      "moveName": "Spacial Rend",
+      "type": "7",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "100",
+      "accuracy": 95,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "461",
+      "moveName": "Lunar Dance",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "462",
+      "moveName": "Crush Grip",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "463",
+      "moveName": "Magma Storm",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "120",
+      "accuracy": 75,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "464",
+      "moveName": "Dark Void",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 80,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "465",
+      "moveName": "Seed Flare",
+      "type": 3,
+      "category": "2",
+      "powerPoints": "5",
+      "power": "120",
+      "accuracy": 85,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "466",
+      "moveName": "Ominous Wind",
+      "type": "12",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "467",
+      "moveName": "Shadow Force",
+      "type": "12",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "120",
+      "accuracy": 100,
+      "Gen": "IV",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "468",
+      "moveName": "Hone Claws",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "469",
+      "moveName": "Wide Guard",
+      "type": "17",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "470",
+      "moveName": "Guard Split",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "471",
+      "moveName": "power Split",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "472",
+      "moveName": "Wonder Room",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "473",
+      "moveName": "Psyshock",
+      "type": "16",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "474",
+      "moveName": "Venoshock",
+      "type": "15",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "65",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "475",
+      "moveName": "Autotomize",
+      "type": "18",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "476",
+      "moveName": "Rage Powder",
+      "type": "5",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "477",
+      "moveName": "Telekinesis",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "478",
+      "moveName": "Magic Room",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "479",
+      "moveName": "Smack Down",
+      "type": "17",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "50",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "480",
+      "moveName": "Storm Throw",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 60,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "481",
+      "moveName": "Flame Burst",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "482",
+      "moveName": "Sludge Wave",
+      "type": "15",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "95",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "483",
+      "moveName": "Quiver Dance",
+      "type": "5",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "484",
+      "moveName": "Heavy Slam",
+      "type": "18",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "485",
+      "moveName": "Synchronoise",
+      "type": "16",
+      "category": "2",
+      "powerPoints": "15",
+      "power": 120,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "486",
+      "moveName": "Electro",
+      "type": "8",
+      "category": "2",
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "487",
+      "moveName": "Soak",
+      "type": "2",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "488",
+      "moveName": "Flame Charge",
+      "type": "1",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "50",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "489",
+      "moveName": "Coil",
+      "type": "15",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "490",
+      "moveName": "Low Sweep",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "20",
+      "power": 65,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "491",
+      "moveName": "Acid Spray",
+      "type": "15",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "492",
+      "moveName": "Foul Play",
+      "type": "6",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "95",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "493",
+      "moveName": "Simple Beam",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "494",
+      "moveName": "Entrainment",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "495",
+      "moveName": "After You",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "496",
+      "moveName": "Round",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "497",
+      "moveName": "Echoed Voice",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "498",
+      "moveName": "Chip Away",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "499",
+      "moveName": "Clear Smog",
+      "type": "15",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "50",
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "500",
+      "moveName": "Stored power",
+      "type": "16",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "20",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "501",
+      "moveName": "Quick Guard",
+      "type": "10",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "502",
+      "moveName": "Ally Switch",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "503",
+      "moveName": "Scald",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "504",
+      "moveName": "Shell Smash",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "505",
+      "moveName": "Heal Pulse",
+      "type": "16",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "506",
+      "moveName": "Hex",
+      "type": "12",
+      "category": "2",
+      "powerPoints": "10",
+      "power": 65,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "507",
+      "moveName": "Sky Drop",
+      "type": "11",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "508",
+      "moveName": "Shift Gear",
+      "type": "18",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "509",
+      "moveName": "Circle Throw",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "60",
+      "accuracy": 90,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "510",
+      "moveName": "Incinerate",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "15",
+      "power": 60,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "511",
+      "moveName": "Quash",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "512",
+      "moveName": "Acrobatics",
+      "type": "11",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "55",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "513",
+      "moveName": "Reflect type",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "514",
+      "moveName": "Retaliate",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "515",
+      "moveName": "Final Gambit",
+      "type": "10",
+      "category": "2",
+      "powerPoints": "5",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "516",
+      "moveName": "Bestow",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "517",
+      "moveName": "Inferno",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "100",
+      "accuracy": 50,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "518",
+      "moveName": "Water Pledge",
+      "type": "2",
+      "category": "2",
+      "powerPoints": "10",
+      "power": 80,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "519",
+      "moveName": "Fire Pledge",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "10",
+      "power": 80,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "520",
+      "moveName": "Grass Pledge",
+      "type": 3,
+      "category": "2",
+      "powerPoints": "10",
+      "power": 80,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "521",
+      "moveName": "Volt Switch",
+      "type": "8",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "522",
+      "moveName": "Struggle Bug",
+      "type": "5",
+      "category": "2",
+      "powerPoints": "20",
+      "power": 50,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "523",
+      "moveName": "Bulldoze",
+      "type": "13",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "524",
+      "moveName": "Frost Breath",
+      "type": "14",
+      "category": "2",
+      "powerPoints": "10",
+      "power": 60,
+      "accuracy": 90,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "525",
+      "moveName": "Dragon Tail",
+      "type": "7",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "60",
+      "accuracy": 90,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "526",
+      "moveName": "Work Up",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "527",
+      "moveName": "Electroweb",
+      "type": "8",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "55",
+      "accuracy": 95,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "528",
+      "moveName": "Wild Charge",
+      "type": "8",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "90",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "529",
+      "moveName": "Drill Run",
+      "type": "13",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "80",
+      "accuracy": 95,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "530",
+      "moveName": "Dual Chop",
+      "type": "7",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "40",
+      "accuracy": 90,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "531",
+      "moveName": "Heart Stamp",
+      "type": "16",
+      "category": "1",
+      "powerPoints": "25",
+      "power": "60",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "532",
+      "moveName": "Horn Leech",
+      "type": 3,
+      "category": "1",
+      "powerPoints": "10",
+      "power": "75",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "533",
+      "moveName": "Sacred Sword",
+      "type": "10",
+      "category": "1",
+      "powerPoints": 15,
+      "power": "90",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "534",
+      "moveName": "Razor Shell",
+      "type": "2",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "75",
+      "accuracy": 95,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "535",
+      "moveName": "Heat Crash",
+      "type": "1",
+      "category": "1",
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "536",
+      "moveName": "Leaf Tornado",
+      "type": 3,
+      "category": "2",
+      "powerPoints": "10",
+      "power": "65",
+      "accuracy": 90,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "537",
+      "moveName": "Steamroller",
+      "type": "5",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "65",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "538",
+      "moveName": "Cotton Guard",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "539",
+      "moveName": "Night Daze",
+      "type": "6",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "85",
+      "accuracy": 95,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "540",
+      "moveName": "Psystrike",
+      "type": "16",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "100",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "541",
+      "moveName": "Tail Slap",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "25",
+      "accuracy": 85,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "542",
+      "moveName": "Hurricane",
+      "type": "11",
+      "category": "2",
+      "powerPoints": "10",
+      "power": 110,
+      "accuracy": 70,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "543",
+      "moveName": "Head Charge",
+      "type": "4",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "120",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "544",
+      "moveName": "Gear Grind",
+      "type": "18",
+      "category": "1",
+      "powerPoints": "15",
+      "power": "50",
+      "accuracy": 85,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "545",
+      "moveName": "Searing Shot",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "100",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "546",
+      "moveName": "Techno Blast",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "85",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "547",
+      "moveName": "Relic Song",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "75",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "548",
+      "moveName": "Secret Sword",
+      "type": "10",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "85",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "549",
+      "moveName": "Glaciate",
+      "type": "14",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "65",
+      "accuracy": 95,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "550",
+      "moveName": "Bolt Strike",
+      "type": "8",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "130",
+      "accuracy": 85,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "551",
+      "moveName": "Blue Flare",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "130",
+      "accuracy": 85,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "552",
+      "moveName": "Fiery Dance",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "553",
+      "moveName": "Freeze Shock",
+      "type": "14",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "140",
+      "accuracy": 90,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "554",
+      "moveName": "Ice Burn",
+      "type": "14",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "140",
+      "accuracy": 90,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "555",
+      "moveName": "Snarl",
+      "type": "6",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "55",
+      "accuracy": 95,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "556",
+      "moveName": "Icicle Crash",
+      "type": "14",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "85",
+      "accuracy": 90,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "557",
+      "moveName": "V-create",
+      "type": "1",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "180",
+      "accuracy": 95,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "558",
+      "moveName": "Fusion Flare",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "5",
+      "power": "100",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "559",
+      "moveName": "Fusion Bolt",
+      "type": "8",
+      "category": "1",
+      "powerPoints": "5",
+      "power": "100",
+      "accuracy": 100,
+      "Gen": "V",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "560",
+      "moveName": "Flying Press",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "80",
+      "accuracy": 95,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "561",
+      "moveName": "Mat Block",
+      "type": "10",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "562",
+      "moveName": "Belch",
+      "type": "15",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "120",
+      "accuracy": 90,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "563",
+      "moveName": "Rototiller",
+      "type": "13",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "564",
+      "moveName": "Sticky Web",
+      "type": "5",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "565",
+      "moveName": "Fell Stinger",
+      "type": "5",
+      "category": "1",
+      "powerPoints": "25",
+      "power": "30",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "566",
+      "moveName": "Phantom Force",
+      "type": "12",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "90",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "567",
+      "moveName": "Trick-or-Treat",
+      "type": "12",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "568",
+      "moveName": "Noble Roar",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "569",
+      "moveName": "Ion Deluge",
+      "type": "8",
+      "category": 4,
+      "powerPoints": "25",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "570",
+      "moveName": "Parabolic Charge",
+      "type": "8",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "50",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "571",
+      "moveName": "Forest's Curse",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "572",
+      "moveName": "Petal Blizzard",
+      "type": 3,
+      "category": "1",
+      "powerPoints": "15",
+      "power": "90",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "573",
+      "moveName": "Freeze-Dry",
+      "type": "14",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "70",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "574",
+      "moveName": "Disarming Voice",
+      "type": "9",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "40",
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "575",
+      "moveName": "Parting Shot",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "576",
+      "moveName": "Topsy-Turvy",
+      "type": "6",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "577",
+      "moveName": "Draining Kiss",
+      "type": "9",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "50",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "578",
+      "moveName": "Crafty Shield",
+      "type": "9",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "579",
+      "moveName": "Flower Shield",
+      "type": "9",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "580",
+      "moveName": "Grassy Terrain",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "581",
+      "moveName": "Misty Terrain",
+      "type": "9",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "582",
+      "moveName": "Electrify",
+      "type": "8",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "583",
+      "moveName": "Play Rough",
+      "type": "9",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "90",
+      "accuracy": 90,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "584",
+      "moveName": "Fairy Wind",
+      "type": "9",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "40",
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "585",
+      "moveName": "Moonblast",
+      "type": "9",
+      "category": "2",
+      "powerPoints": "15",
+      "power": "95",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "586",
+      "moveName": "Boomburst",
+      "type": "4",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "140",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "587",
+      "moveName": "Fairy Lock",
+      "type": "9",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "588",
+      "moveName": "King's Shield",
+      "type": "18",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "589",
+      "moveName": "Play Nice",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "590",
+      "moveName": "Confide",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "594",
+      "moveName": "Water Shuriken",
+      "type": "2",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "15",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "595",
+      "moveName": "Mystical Fire",
+      "type": "1",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "65",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "596",
+      "moveName": "Spiky Shield",
+      "type": 3,
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "597",
+      "moveName": "Aromatic Mist",
+      "type": "9",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "598",
+      "moveName": "Eerie Impulse",
+      "type": "8",
+      "category": 4,
+      "powerPoints": "15",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "599",
+      "moveName": "Venom Drench",
+      "type": "15",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "600",
+      "moveName": "Powder",
+      "type": "5",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "601",
+      "moveName": "Geomancy",
+      "type": "9",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "602",
+      "moveName": "Magnetic Flux",
+      "type": "8",
+      "category": 4,
+      "powerPoints": "20",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "603",
+      "moveName": "HapowerPointsy Hour",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "604",
+      "moveName": "Electric Terrain",
+      "type": "8",
+      "category": 4,
+      "powerPoints": "10",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "605",
+      "moveName": "Dazzling Gleam",
+      "type": "9",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "606",
+      "moveName": "Celebrate",
+      "type": "4",
+      "category": 4,
+      "powerPoints": "40",
+      "power": 0,
+      "accuracy": 0,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "608",
+      "moveName": "Baby-Doll Eyes",
+      "type": "9",
+      "category": 4,
+      "powerPoints": "30",
+      "power": 0,
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "609",
+      "moveName": "Nuzzle",
+      "type": "8",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "20",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "611",
+      "moveName": "Infestation",
+      "type": "5",
+      "category": "2",
+      "powerPoints": "20",
+      "power": "20",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "612",
+      "moveName": "power-Up Punch",
+      "type": "10",
+      "category": "1",
+      "powerPoints": "20",
+      "power": "40",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+
+      "moveNum": "613",
+      "moveName": "Oblivion Wing",
+      "type": "11",
+      "category": "2",
+      "powerPoints": "10",
+      "power": "80",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    },
+    {
+      "moveNum": "616",
+      "moveName": "Land's Wrath",
+      "type": "13",
+      "category": "1",
+      "powerPoints": "10",
+      "power": "90",
+      "accuracy": 100,
+      "Gen": "VI",
+      "posStatus": 0,
+      "statusChance": 0,
+      "moveDescription": "-"
+    }
+  ]
+}

@@ -3,12 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum M_Functionality
+public enum M_Category
 {
     None,
     Physical,
     Special,
-    Buff
+    Buff,
+    Status
 }
 
 public enum Status
@@ -46,13 +47,13 @@ public class Move
    //Name of move
     public string moveName;
     //Base Damaage move does (if any)
-    public int baseAttackDamage;
+    public int power;
     //Power Points: how much move can be used
     public int powerPoints;
     //Description of Move
     public string moveDescription;
     //move functionality
-    public M_Functionality function;
+    public M_Category category;
     //what type of damage the move does
     public PokeType type;
     //from -2 to +3, if both moves are the same it is up to the speed stat of the pokemon
@@ -66,7 +67,9 @@ public class Move
     //accuracy (same as accuracy on monster class) aka determines how often the move will land
     public int accuracy;
 
-
+    //what type of status can be applied
+    public Status posStatus;
+    public int statusChance;
 
     /// <summary>
     /// Basic Constructor (for making moves from predetermined list) - not sure if needed
@@ -79,7 +82,7 @@ public class Move
      public Move(int moveNum, int baseAttackDamage, int powerPoints, string moveName, string moveDescription)
     {
         this.moveNum = moveNum;
-        this.baseAttackDamage = baseAttackDamage;
+        this.power = baseAttackDamage;
         this.powerPoints = powerPoints;
         this.moveName = moveName;
         this.moveDescription = moveDescription;
@@ -92,16 +95,18 @@ public class Move
     {
         moveNum = 0;
         moveName = "empty";
-        baseAttackDamage = 0;
+        power = 0;
         powerPoints = 0;
         moveDescription = "empty empty empty";
-        function = 0;
+        category = 0;
         type = 0;
         priority = 0;
         turns = 0;
         status = 0;
         amount = 0;
         accuracy = 100;
+        posStatus = 0;
+        statusChance = 0;
     }
 
 }
