@@ -26,6 +26,18 @@ public enum Status
     Leech_Seed
 }
 
+public enum StatType
+{
+    None,
+    Accuracy,
+    Health,
+    Attack,
+    Defense,
+    SpecialAttack,
+    SpecialDefense,
+    Speed
+}
+
 [Serializable]
 public class Move
 {
@@ -66,10 +78,34 @@ public class Move
     public int amount;
     //accuracy (same as accuracy on monster class) aka determines how often the move will land
     public int accuracy;
+    //some moves have higher crit chances than others
+    public float critChance;
 
     //what type of status can be applied
     public Status posStatus;
     public int statusChance;
+
+    //buff stats (considering condenseing into array)
+    public StatType boostType1;
+    public StatType boostType2;
+    public StatType boostType3;
+    public StatType boostType4;
+    public StatType boostType5;
+    public StatType boostType6;
+    //could either have it be measrued in stages or just an int increase
+    public int statBoost1;
+    public int statBoost2;
+    public int statBoost3;
+    public int statBoost4;
+    public int statBoost5;
+    public int statBoost6;
+    public int turnsActive;
+   
+
+    //for certain moves, special events can occur for now this will keep track of it
+    //will use a switch statement for each event number (only about 20?)
+    //default 0;
+    public int eventNumber;
 
     /// <summary>
     /// Basic Constructor (for making moves from predetermined list) - not sure if needed
@@ -105,8 +141,10 @@ public class Move
         status = 0;
         amount = 0;
         accuracy = 100;
+        critChance = 0.1f;
         posStatus = 0;
         statusChance = 0;
+        eventNumber = 0;
     }
 
 }
