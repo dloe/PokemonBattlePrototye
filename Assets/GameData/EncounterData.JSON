@@ -1,25 +1,21 @@
 {
   "encounterList": [
     {
-      "dexNum": 1,
-      "possibleMoves": [
-        0,
-        1,
-        2
-      ],
+      "dexNum": 0,
+      "possibleMoves": [33,45,111,205,29,269,281,242,36,162,14,133,276,174,44,38],
       "level": 50,
-      "pMax_health": 0,
-      "pMin_health": 0,
-      "pMax_attack": 0,
-      "pMin_attack": 0,
-      "pMax_defense": 0,
-      "pMin_defense": 0,
-      "pMax_speAtt": 0,
-      "pMin_speAtt": 0,
-      "pMax_speDef": 0,
-      "pMin_speDef": 0,
-      "pMax_speed": 0,
-      "pMin_speed": 0
+      "pMax_health": 166,
+      "pMin_health": 119,
+      "pMax_attack": 106,
+      "pMin_attack": 45,
+      "pMax_defense": 101,
+      "pMin_defense": 40,
+      "pMax_speAtt": 95,
+      "pMin_speAtt": 36,
+      "pMax_speDef": 101,
+      "pMin_speDef": 40,
+      "pMax_speed": 91,
+      "pMin_speed": 32
     },
     {
       "dexNum": 1,

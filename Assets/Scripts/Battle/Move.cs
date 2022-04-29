@@ -23,7 +23,8 @@ public enum Status
     Flinch,
     Confused,
     Infatuation,
-    Leech_Seed
+    Leech_Seed,
+    Self_Damage
 }
 
 public enum StatType
@@ -85,13 +86,25 @@ public class Move
     public Status posStatus;
     public int statusChance;
 
-    //buff stats (considering condenseing into array)
+    //how often will boost be applied
+    public int boostChance;
+
+    //buff stats (considering condenseing into array) - 0 is outselves while is enemy
     public StatType boostType1;
     public StatType boostType2;
     public StatType boostType3;
     public StatType boostType4;
     public StatType boostType5;
     public StatType boostType6;
+
+    //are boosts being applied to themselves or the opponent
+    public int boostTarget1;
+    public int boostTarget2;
+    public int boostTarget3;
+    public int boostTarget4;
+    public int boostTarget5;
+    public int boostTarget6;
+
     //could either have it be measrued in stages or just an int increase
     public int statBoost1;
     public int statBoost2;

@@ -20,6 +20,7 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
     /// - wont have to store in json since all info is determined in battlemanager
     /// 
     /// - only 1 pokemon
+    /// - its is assumed that all pokemon are locked to lvl 50
     /// </summary>
 
     //wild pokemon
