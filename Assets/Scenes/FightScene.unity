@@ -1447,7 +1447,7 @@ PrefabInstance:
     - target: {fileID: 5171673725201312992, guid: e43abb6caa77aef468083f2156451fc1,
         type: 3}
       propertyPath: overrideEncounterChoice
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8799569747981626145, guid: e43abb6caa77aef468083f2156451fc1,
         type: 3}

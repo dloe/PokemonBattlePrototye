@@ -348,7 +348,7 @@ public class BattleManager : MonoBehaviour
             //JsonUtility.FromJsonOverwrite(content, this);
             pokeDex = JsonUtility.FromJson<MonsterData>(content);
             Debug.Log("Dex Data Loaded...");
-            Debug.Log(pokeDex.Pokedex[0].dexNum);
+            //Debug.Log(pokeDex.Pokedex[0].dexNum);
         }
         else
         {
