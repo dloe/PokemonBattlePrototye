@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 using System.IO;
 
 public class AI_Lvl1_WildEncounter : MonoBehaviour
@@ -26,10 +27,14 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
     //wild pokemon
     public Monster wildPokemon;
     int moveCount = 0;
+    [HideInInspector]
     public BattleManager battleManager;
     //ublic MonsterData pokeDex;
 
     WildEncounterData myEncounterData;
+
+    public bool overrideEncounterChoice = false;
+    public string encounterOverrideFile = "OverrideEncounterData.JSON";
 
     private void Awake()
     {
@@ -84,11 +89,15 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
     {
         LoadEncounterData();
 
-        PickEncounter();
+        if (!overrideEncounterChoice)
+            PickEncounter();
+        else
+            SetEncounterFromOverride();
 
 
     }
 
+    //pick encounter randomly
     void PickEncounter()
     {
         Debug.Log("WildEncounter: Determining Encounter Pokemon...");
@@ -128,6 +137,28 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
 
 
         wildPokemon = pokemonEncounter;
+    }
+
+    //in case we want to hard set what pokemon we encounter
+    void SetEncounterFromOverride()
+    {
+        //sets encounter info from preset json file
+        string path = Application.dataPath + "/GameData" + "/" + encounterOverrideFile;
+
+        if (File.Exists(path))
+        {
+            string content = File.ReadAllText(path);
+
+            //JsonUtility.FromJsonOverwrite(content, this);
+            wildPokemon = JsonUtility.FromJson<Monster>(content);
+            Debug.Log("Override Encounter Loaded...");
+            Debug.Log(wildPokemon.mName);
+        }
+        else
+        {
+            Debug.LogError("Error: Cannot find path to Override Encounter Data: " + path);
+            //check path
+        }
     }
 
     #endregion
@@ -231,3 +262,38 @@ public class PokeEncounter
         pMin_speed = 0;
     }
 }
+
+#if UNITY_EDITOR
+public class AI_Lvl1_WildEncounterEditor : Editor
+{
+    AI_Lvl1_WildEncounter wildEncounter;
+
+    private void OnEnable()
+    {
+        wildEncounter = (AI_Lvl1_WildEncounter)target;
+    }
+
+    public override void OnInspectorGUI()
+    {
+        
+        serializedObject.Update();
+
+        EditorGUI.BeginChangeCheck();
+
+
+        //if user toggles setup override
+        
+
+        base.OnInspectorGUI();
+
+        bool somethingChanged = EditorGUI.EndChangeCheck();
+
+        if (somethingChanged)
+        {
+            EditorUtility.SetDirty(wildEncounter);
+        }
+
+        serializedObject.ApplyModifiedProperties();
+    }
+}
+#endif

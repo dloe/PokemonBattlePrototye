@@ -68,6 +68,8 @@ public class BattleManager : MonoBehaviour
     public MovesStorage moveList;
     public MonsterData pokeDex;
 
+    
+
     private void Awake()
     {
         SetUpMoveData();
@@ -183,8 +185,14 @@ public class BattleManager : MonoBehaviour
     public void WildEncounterGenerator()
     {
 
-        myEncounter = Instantiate(WildEncoounter_prefab);
+        if (myEncounter == null)
+        {
+            myEncounter = Instantiate(WildEncoounter_prefab);
+            
+        }
         myEncounter.GetComponent<AI_Lvl1_WildEncounter>().battleManager = this;
+
+
         myEncounter.GetComponent<AI_Lvl1_WildEncounter>().InitialSetup();
        // myEncounter.GetComponent<AI_Lvl1_WildEncounter>().pokeDex = pokeDex;
 
@@ -226,7 +234,8 @@ public class BattleManager : MonoBehaviour
     //get move lists - will rework but this works and we will use it for setting up the pokemons move sets
     public void LoadData()
     {
-        string path = Application.dataPath + "/GameData" + "/MoveData.JSON";
+        string path = Application.dataPath + "/GameData" + "/ALLMOVES.json";
+        //C:\Users\Dylan\Desktop\GitHub\PokemonBattlePrototye\Assets\GameData\ALLMOVES.JSON.json
         if (File.Exists(path))
         {
 
