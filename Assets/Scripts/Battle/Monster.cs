@@ -54,8 +54,11 @@ public class Monster
     public PokeType type2;
     [Header("Accuracy")]
     public int accuracy;
+    [Header("Evasion")]
+    public int evasion;
     [Header("Name")]
     public string mName;
+    public string mEntry;
     [Header("Health")]
     public int maxHealth;
     public int currentHealth;

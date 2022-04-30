@@ -185,11 +185,18 @@ public class BattleManager : MonoBehaviour
     public void WildEncounterGenerator()
     {
 
-        if (myEncounter == null)
-        {
-            myEncounter = Instantiate(WildEncoounter_prefab);
-            
-        }
+        //if (myEncounter == null)
+        //{
+        //Debug.Log("No Wild Encounter Obj... Making new Encounter OBJ...");
+        //myEncounter = Instantiate(WildEncoounter_prefab);
+
+        //}
+
+        //for now, will just save it to encounter --- will revise in future
+        myEncounter = WildEncoounter_prefab;
+
+
+
         myEncounter.GetComponent<AI_Lvl1_WildEncounter>().battleManager = this;
 
 
@@ -252,6 +259,7 @@ public class BattleManager : MonoBehaviour
 
     public void LoadParty()
     {
+        
         string path = Application.dataPath + "/GameData" + "/PlayerInventory.JSON";
         if (File.Exists(path))
         {

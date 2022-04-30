@@ -104,7 +104,7 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
 
         //pick random pokemon index
         int pokeIndex = UnityEngine.Random.Range(0, myEncounterData.encounterList.Length - 1);
-        // Debug.Log(pokeIndex);
+        //Debug.Log(pokeIndex);
         //Debug.Log(myEncounterData.encounterList[pokeIndex].dexNum);
         PokeEncounter encounterInfo = myEncounterData.encounterList[pokeIndex];
         //should have the stats like types and whatnot, will override the max and current to be specific to encounter (they default to 0)
@@ -118,19 +118,19 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
         pokemonEncounter.maxSpeDef = pokemonEncounter.currentSpeDef = UnityEngine.Random.Range(encounterInfo.pMin_speDef, encounterInfo.pMax_speDef);
         pokemonEncounter.maxSpeed = pokemonEncounter.currentSpeed = UnityEngine.Random.Range(encounterInfo.pMin_speed, encounterInfo.pMax_speed);
 
-        Debug.Log("WildEncounter: " + pokemonEncounter.mName);
-        Debug.Log("Level: " + pokemonEncounter.level);
+        Debug.Log("Encounter Name: " + pokemonEncounter.mName);
+        Debug.Log("Dex Num: " + pokemonEncounter.dexNum);
 
         //select moves (usually 3 - 4)
         int totalMoves = UnityEngine.Random.Range(3, 4);
+        int[] moveList = encounterInfo.possibleMoves;
+        //shuffle moves
+        ShuffleArray(moveList);
         for (moveCount = 0; moveCount < totalMoves; moveCount++)
         {
-            int[] moveList = encounterInfo.possibleMoves;
-            //shuffle moves
-            ShuffleArray(moveList);
             Move mov = battleManager.moveList.moveList[moveList[moveCount]];
             pokemonEncounter.moves[moveCount] = mov;
-
+            Debug.Log(pokemonEncounter.moves[moveCount].moveName);
         }
 
         Debug.Log("Established Moves: " + totalMoves);

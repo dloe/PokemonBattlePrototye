@@ -19,25 +19,20 @@
     },
     {
       "dexNum": 1,
-      "possibleMoves": [
-        0,
-        1,
-        2,
-        3
-      ],
+      "possibleMoves": [33,45,98,17,104,283,18,332,36,97,413,515],
       "level": 50,
-      "pMax_health": 0,
-      "pMin_health": 0,
-      "pMax_attack": 0,
-      "pMin_attack": 0,
-      "pMax_defense": 0,
-      "pMin_defense": 0,
-      "pMax_speAtt": 0,
-      "pMin_speAtt": 0,
-      "pMax_speDef": 0,
-      "pMin_speDef": 0,
-      "pMax_speed": 0,
-      "pMin_speed": 0
+      "pMax_health": 147,
+      "pMin_health": 100,
+      "pMax_attack": 117,
+      "pMin_attack": 54,
+      "pMax_defense": 90,
+      "pMin_defense": 31,
+      "pMax_speAtt": 90,
+      "pMin_speAtt": 31,
+      "pMax_speDef": 90,
+      "pMin_speDef": 31,
+      "pMax_speed": 123,
+      "pMin_speed": 58
     },
     {
       "dexNum": 0,

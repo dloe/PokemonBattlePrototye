@@ -36,7 +36,8 @@ public enum StatType
     Defense,
     SpecialAttack,
     SpecialDefense,
-    Speed
+    Speed,
+    Evasion
 }
 
 [Serializable]
@@ -89,7 +90,7 @@ public class Move
     //how often will boost be applied
     public int boostChance;
 
-    //buff stats (considering condenseing into array) - 0 is outselves while is enemy
+    //buff stats (considering condenseing into array) - 0 is outselves while 1 is enemy
     public StatType boostType1;
     public StatType boostType2;
     public StatType boostType3;
