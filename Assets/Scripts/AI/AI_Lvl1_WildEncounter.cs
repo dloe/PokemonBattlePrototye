@@ -65,7 +65,7 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
     {
         int choice = UnityEngine.Random.Range(0, moveCount);
         Move encounterMove = wildPokemon.moves[choice];
-        Debug.Log("Encounter: Choose move number " + choice + " -> " + encounterMove.moveName);
+        Debug.Log("Encounter: Chose move number " + choice + " -> " + encounterMove.moveName);
         //move choose between 0 -> moveCount on array
         //will send over info to battle manager
         
@@ -73,8 +73,6 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
 
         return encounterMove;
     }
-
-
 
     #endregion
 
@@ -161,7 +159,6 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
         }
     }
 
-    #endregion
 
     /// <summary>
     /// Get Encounter data from json file
@@ -184,6 +181,7 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
             Debug.LogError("Error: Cannot find path to WildEncounterData: " + encounterDataPath);
         }
     }
+    #endregion
 
 
     void ShuffleArray(int[] a)
@@ -263,7 +261,10 @@ public class PokeEncounter
     }
 }
 
+
+//for now will focus on ui ease of use when we need it
 #if UNITY_EDITOR
+
 public class AI_Lvl1_WildEncounterEditor : Editor
 {
     AI_Lvl1_WildEncounter wildEncounter;

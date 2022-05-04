@@ -80,9 +80,12 @@ public class BattleManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //setup battle params
+        BattleSetup();
+        //begin battle - 
         initializeBattle();
 
-        BattleSetup();
+        
     }
 
     // Update is called once per frame
@@ -166,6 +169,8 @@ public class BattleManager : MonoBehaviour
                 break;
         }
         
+
+
     }
 
     #region Wild Encounter Event
@@ -184,13 +189,6 @@ public class BattleManager : MonoBehaviour
     /// </summary>
     public void WildEncounterGenerator()
     {
-
-        //if (myEncounter == null)
-        //{
-        //Debug.Log("No Wild Encounter Obj... Making new Encounter OBJ...");
-        //myEncounter = Instantiate(WildEncoounter_prefab);
-
-        //}
 
         //for now, will just save it to encounter --- will revise in future
         myEncounter = WildEncoounter_prefab;
