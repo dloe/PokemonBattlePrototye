@@ -33,7 +33,7 @@ public class Monster
     /// Monster.cs
     /// Dylan Loe
     /// 
-    /// Last Updated: 4/3/22
+    /// Last Updated: 5/13/22
     /// 
     /// - Data for Monster (pokemon)
     ///     - stats
@@ -77,6 +77,8 @@ public class Monster
     [Header("Speed")]
     public int maxSpeed;
     public int currentSpeed;
+    //1 = male, 0 = female
+    public int gender;
 
     #endregion
 

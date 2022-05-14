@@ -11,7 +11,7 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
     /// AI_Lvl1_WildEncounter
     /// Dylan Loe
     /// 
-    /// Updated: 4/3/22
+    /// Updated: 5/13/22
     /// 
     /// - Level 1 AI - Used Specifically for Wild Pokemon Encounters
     /// 
@@ -115,7 +115,7 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
         pokemonEncounter.maxSpeAtt = pokemonEncounter.currentSpeAtt = UnityEngine.Random.Range(encounterInfo.pMin_speAtt, encounterInfo.pMax_speAtt);
         pokemonEncounter.maxSpeDef = pokemonEncounter.currentSpeDef = UnityEngine.Random.Range(encounterInfo.pMin_speDef, encounterInfo.pMax_speDef);
         pokemonEncounter.maxSpeed = pokemonEncounter.currentSpeed = UnityEngine.Random.Range(encounterInfo.pMin_speed, encounterInfo.pMax_speed);
-
+        pokemonEncounter.gender = UnityEngine.Random.Range(0, 1);
         Debug.Log("Encounter Name: " + pokemonEncounter.mName);
         Debug.Log("Dex Num: " + pokemonEncounter.dexNum);
 
