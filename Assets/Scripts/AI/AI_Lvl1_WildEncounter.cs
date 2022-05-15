@@ -83,7 +83,7 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
     /// - sets up data for determining encounter
     /// - runs setup for picking encounter 
     /// </summary>
-    public void InitialSetup()
+    public Monster InitialSetup()
     {
         LoadEncounterData();
 
@@ -92,7 +92,7 @@ public class AI_Lvl1_WildEncounter : MonoBehaviour
         else
             SetEncounterFromOverride();
 
-
+        return wildPokemon;
     }
 
     //pick encounter randomly

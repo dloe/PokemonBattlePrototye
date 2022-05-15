@@ -427,6 +427,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   battleType: 1
   WildEncoounter_prefab: {fileID: 1105695505}
+  uiManager: {fileID: 907011642}
 --- !u!4 &230826969
 Transform:
   m_ObjectHideFlags: 0

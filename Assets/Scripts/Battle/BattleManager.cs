@@ -67,7 +67,9 @@ public class BattleManager : MonoBehaviour
     public PlayerParty myPlayerParty;
     public MovesStorage moveList;
     public MonsterData pokeDex;
+    public InterfaceManager uiManager;
 
+    Monster currentOpponent;
     
 
     private void Awake()
@@ -82,8 +84,13 @@ public class BattleManager : MonoBehaviour
     {
         //setup battle params
         BattleSetup();
+
+        //set up initial ui
+        UISetup();
+
         //begin battle - 
-        initializeBattle();
+        InitializeBattle();
+
 
         
     }
@@ -104,7 +111,7 @@ public class BattleManager : MonoBehaviour
     ///     - This will check for ablilty activation (if we get there)
     ///     - It will end by letting the player input actions
     /// </summary>
-    void initializeBattle()
+    void InitializeBattle()
     {
 
     }
@@ -123,7 +130,7 @@ public class BattleManager : MonoBehaviour
     ///     - If monster has fainted in turn will Prompt game to check replacment IF yes will allow new monster to come out
     ///     - At end with input UI Reapearing
     /// </summary>
-    void playActions()
+    void PlayActions()
     {
 
     }
@@ -134,7 +141,7 @@ public class BattleManager : MonoBehaviour
     ///         - if player "you win"
     ///         - if enemy "you lose"
     /// </summary>
-    void battleEnd()
+    void BattleEnd()
     {
 
     }
@@ -173,6 +180,15 @@ public class BattleManager : MonoBehaviour
 
     }
 
+    void UISetup()
+    {
+        //defaults to front of party (will set logic for first available in future push)
+        uiManager.SetPlayerUIText(myPlayerParty.party[0]);
+
+
+        uiManager.SetOpponentUIText(currentOpponent);
+    }
+
     #region Wild Encounter Event
 
     /// <summary>
@@ -198,7 +214,7 @@ public class BattleManager : MonoBehaviour
         myEncounter.GetComponent<AI_Lvl1_WildEncounter>().battleManager = this;
 
 
-        myEncounter.GetComponent<AI_Lvl1_WildEncounter>().InitialSetup();
+        currentOpponent = myEncounter.GetComponent<AI_Lvl1_WildEncounter>().InitialSetup();
        // myEncounter.GetComponent<AI_Lvl1_WildEncounter>().pokeDex = pokeDex;
 
 
